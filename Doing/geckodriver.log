@@ -1,0 +1,332 @@
+1617697662213	geckodriver	INFO	Listening on 127.0.0.1:56056
+1617697665277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileUbYuMl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617697668276	Marionette	INFO	Listening on port 56065
+1617697668457	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617697696736	Marionette	INFO	Stopped listening on port 56065
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617697992998	geckodriver	INFO	Listening on 127.0.0.1:56343
+1617697996075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilefpoGci"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617697998987	Marionette	INFO	Listening on port 56351
+1617697999246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617698325250	Marionette	INFO	Stopped listening on port 56351
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofile9IlHwA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617698239469	Marionette	INFO	Listening on port 56440
+1617698239700	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://jsc.mgid.com/a/g/agency.tangthuvien.vn.1066221.js, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/a/g/agency.tangthuvien.vn.1066221.js, line 1: WebGL context was lost.
+1617698322944	Marionette	INFO	Stopped listening on port 56440
+1617698341717	geckodriver	INFO	Listening on 127.0.0.1:56585
+1617698344779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofile0j8K36"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617698347797	Marionette	INFO	Listening on port 56593
+1617698347949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://jsc.mgid.com/a/g/agency.tangthuvien.vn.1066221.js, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/a/g/agency.tangthuvien.vn.1066221.js, line 1: WebGL context was lost.
+JavaScript error: https://jsc.mgid.com/a/g/agency.tangthuvien.vn.1066221.js, line 1: SecurityError: Permission denied to access property "document" on cross-origin object
+1617698358690	Marionette	INFO	Stopped listening on port 56593
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617699401179	geckodriver	INFO	Listening on 127.0.0.1:50019
+1617699404213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilevzvvYU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617699407760	Marionette	INFO	Listening on port 50036
+1617699407953	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617699410944	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617699636149	Marionette	INFO	Stopped listening on port 50036
+7699618747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileDgRfev"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617699622272	Marionette	INFO	Listening on port 50304
+1617699622416	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617699625441	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617699630478	Marionette	INFO	Stopped listening on port 50304
+[Parent 3372, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1617700407505	geckodriver	INFO	Listening on 127.0.0.1:63248
+1617700410528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilea11SRc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617700413936	Marionette	INFO	Listening on port 63256
+1617700414222	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617700426492	Marionette	INFO	Stopped listening on port 63256
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617700908301	geckodriver	INFO	Listening on 127.0.0.1:63398
+1617700911317	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilemYeq04"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617700914312	Marionette	INFO	Listening on port 63406
+1617700914503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617700918379	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: https://ssl.gstatic.com/support/realtime/operator/1617321937933/operatordeferred_bin_base__en.js, line 108: uncaught exception: [object Object]
+JavaScript error: https://tpc.googlesyndication.com/sodar/5k7CCto5.html, line 11: uncaught exception: 7
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 571: TypeError: this.contentWindow is null
+JavaScript warning: https://www.y2mate.com/youtube/SlPhMPnQ58k, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/youtube/SlPhMPnQ58k line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=2021369, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=2021369, line 1: WebGL context was lost.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+JavaScript error: resource://gre/actors/PictureInPictureChild.jsm, line 301: InvalidStateError: JSWindowActorChild.contentWindow getter: Cannot access property 'contentWindow' after actor 'PictureInPictureToggle' has been destroyed
+1617701157124	Marionette	INFO	Stopped listening on port 63406
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617701171332	geckodriver	INFO	Listening on 127.0.0.1:63632
+1617701174452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileDMRfQt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617701177682	Marionette	INFO	Listening on port 63640
+1617701178186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617701182049	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617701200667	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1617701244852	Marionette	INFO	Stopped listening on port 63640
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617701248222	geckodriver	INFO	Listening on 127.0.0.1:63708
+1617701251332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileg2IUlM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617701254591	Marionette	INFO	Listening on port 63716
+1617701255028	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617701258915	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617701338164	Marionette	INFO	Stopped listening on port 63716
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617701675242	geckodriver	INFO	Listening on 127.0.0.1:63952
+1617701678318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileFx1500"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617701681449	Marionette	INFO	Listening on port 63960
+1617701681545	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617701687648	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617701813613	Marionette	INFO	Stopped listening on port 63960
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofile9TBcGw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617701767668	Marionette	INFO	Listening on port 64047
+1617701767899	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617701770714	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617701810834	Marionette	INFO	Stopped listening on port 64047
+1617702026961	geckodriver	INFO	Listening on 127.0.0.1:64162
+1617702030044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileGNuxwS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617702033086	Marionette	INFO	Listening on port 64170
+1617702033251	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617702036436	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617702056853	Marionette	INFO	Stopped listening on port 64170
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617702124881	geckodriver	INFO	Listening on 127.0.0.1:64238
+1617702127961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileGiwnOW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617702131017	Marionette	INFO	Listening on port 64247
+1617702131179	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617702133449	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1617704066560	Marionette	INFO	Stopped listening on port 64247
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+emp\\rust_mozprofileO6XGj8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617702331874	Marionette	INFO	Listening on port 64352
+1617702332069	Marionette	WARN	TLS certificate errors will be ignored for this session
+1617702335338	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1617702339040	Marionette	INFO	Stopped listening on port 64352
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617716485617	geckodriver	INFO	Listening on 127.0.0.1:55527
+1617716488710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileMsIDiK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617716491943	Marionette	INFO	Listening on port 55535
+1617716492418	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.y2mate.com/en68, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en68 line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+1617716553173	Marionette	INFO	Stopped listening on port 55535
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617716555714	geckodriver	INFO	Listening on 127.0.0.1:55644
+1617716558789	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileoW7ugz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617716562437	Marionette	INFO	Listening on port 55652
+1617716562980	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://www.y2mate.com/en68, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en68 line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+1617716584832	Marionette	INFO	Stopped listening on port 55652
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617716615071	geckodriver	INFO	Listening on 127.0.0.1:55755
+1617716618150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileR1uA2h"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617716621614	Marionette	INFO	Listening on port 55763
+1617716621811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.y2mate.com/en68, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en68 line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617716724658	Marionette	INFO	Stopped listening on port 55763
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617716727616	geckodriver	INFO	Listening on 127.0.0.1:55891
+1617716730699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilet2YeOJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617716734260	Marionette	INFO	Listening on port 55900
+1617716734774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.y2mate.com/en68, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en68 line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+1617716802187	Marionette	INFO	Stopped listening on port 55900
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617716816044	geckodriver	INFO	Listening on 127.0.0.1:56015
+1617716819078	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofile8VuVCz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617716822217	Marionette	INFO	Listening on port 56023
+1617716822238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript warning: https://www.y2mate.com/en68, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en68 line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+1617716833960	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://joastous.com/pfe/current/tag.min.js?z=3461575, line 1: Error: AAB BroadcastRequest timeout url="https://joastous.com/pfe/current/universal.min.js?v=3.1.287" body="""" timeOrigin=13377
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/source/pages/home.js, line 7: Error: timeout of 5000ms exceeded
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/source/pages/home.js, line 7: Error: timeout of 5000ms exceeded
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/source/pages/home.js, line 7: Error: timeout of 5000ms exceeded
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/source/pages/home.js, line 7: Error: timeout of 5000ms exceeded
+JavaScript warning: https://g.alicdn.com/AWSC/et/1.62.1/et_n.js, line 4: WebGL context was lost.
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/source/pages/home.js, line 1: ChunkLoadError: Loading chunk 3 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/vendors~zoro-gep-sdk-ee6VD.js)
+JavaScript error: https://assets.alicdn.com/g/ae-fe/header-ui/0.0.21/src/ae-header.js?v=8, line 1: ChunkLoadError: Loading chunk 0 failed.
+(error: https://assets.alicdn.com/g/ae-fe/header-ui/0.0.21/async~store-info.js)
+JavaScript error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/source/pages/home.js, line 1: ChunkLoadError: Loading chunk 2 failed.
+(error: https://assets.alicdn.com/g/ae-fe/home-ui/0.0.77/vendors~poplayer-web-container-uOJOs.js)
+JavaScript error: https://www.y2mate.com/themes/js/main.js?v=1.3, line 2: TypeError: r.shift is not a function
+JavaScript error: https://www.y2mate.com/themes/js/main.js?v=1.3, line 2: TypeError: r.shift is not a function
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213613, line 1: WebGL context was lost.
+JavaScript error: https://joastous.com/pfe/current/tag.min.js?z=3461575, line 1: Error: AAB BroadcastRequest timeout url="https://joastous.com/pfe/current/universal.min.js?v=3.1.287" body="""" timeOrigin=470935
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: resource://gre/modules/DownloadCore.jsm, line 2261: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIStreamListener.onDataAvailable]
+[Child 3320, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1617717490239	Marionette	INFO	Stopped listening on port 56023
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617717518562	geckodriver	INFO	Listening on 127.0.0.1:56481
+1617717521617	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilel7w446"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617717526003	Marionette	INFO	Listening on port 56489
+1617717526375	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.y2mate.com/en68, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en68 line 2 > injectedScript, line 45: unreachable code after return statement
+1617717540544	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://joastous.com/pfe/current/tag.min.js?z=3461575, line 1: Error: AAB BroadcastRequest timeout url="https://joastous.com/zone?pub=0&zone_id=3461575&is_mobile=false&domain=www.y2mate.com&var=&ymid=&var_3=" body="""" timeOrigin=15315
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213614, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213614, line 1: WebGL context was lost.
+1617717757773	Marionette	INFO	Stopped listening on port 56489
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617717834984	geckodriver	INFO	Listening on 127.0.0.1:56701
+1617717838099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofileew4Ym8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617717841524	Marionette	INFO	Listening on port 56709
+1617717841794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.y2mate.com/en68, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en68 line 2 > injectedScript, line 45: unreachable code after return statement
+1617717856164	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://joastous.com/pfe/current/tag.min.js?z=3461575, line 1: Error: AAB BroadcastRequest timeout url="https://joastous.com/pfe/current/universal.min.js?v=3.1.287" body="""" timeOrigin=16183
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213614, line 1: WebGL context was lost.
+JavaScript warning: https://jsc.mgid.com/y/2/y2mate.com.702514.js?t=20213614, line 1: WebGL context was lost.
+JavaScript warning: https://www.y2mate.com/youtube-mp3/e-ORhEE9VVg, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/youtube-mp3/e-ORhEE9VVg line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en30/convert-youtube, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en30/convert-youtube line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3 line 2 > injectedScript, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/vi12/youtube-mp3, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/vi12/youtube-mp3 line 2 > injectedScript, line 45: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617718064567	Marionette	INFO	Stopped listening on port 56709
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617718389304	geckodriver	INFO	Listening on 127.0.0.1:57026
+1617718392383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilebowhQg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617718395953	Marionette	INFO	Listening on port 57034
+1617718396047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3 line 2 > injectedScript, line 45: unreachable code after return statement
+1617718418409	Marionette	INFO	Stopped listening on port 57034
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617718488969	geckodriver	INFO	Listening on 127.0.0.1:57086
+1617718492020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilekSb9NN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617718495408	Marionette	INFO	Listening on port 57094
+1617718495694	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3 line 2 > injectedScript, line 45: unreachable code after return statement
+1617718676690	Marionette	INFO	Stopped listening on port 57094
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ASUS\\AppData\\Local\\Temp\\rust_mozprofilezQOAmU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617718597992	Marionette	INFO	Listening on port 57205
+1617718598396	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3, line 45: unreachable code after return statement
+JavaScript warning: https://www.y2mate.com/en31/youtube-mp3 line 2 > injectedScript, line 45: unreachable code after return statement
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617718653453	Marionette	INFO	Stopped listening on port 57205
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
