@@ -34,6 +34,8 @@ F5::Run, C:\Users\ASUS\Desktop\Hibernate.lnk
 :*:j-::-----------------------------------------------------------
 ; vim user
 Capslock::Esc
+
+!z::Send, {AltDown}{Left}{AltUp}
 	
 ; change volume 
 >!j::Send, {Volume_Down}
