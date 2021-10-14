@@ -41,7 +41,7 @@ def main():
                 is_light = False
                 n_change -= 1
 
-        time.sleep(60)
+        time.sleep(1)
         # ic(is_light)
  
 try:
