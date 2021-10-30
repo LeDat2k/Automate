@@ -11,6 +11,7 @@ F1::Send, {LWinDown}1{LWinUp}
 
 F5::Run, C:\Users\ASUS\Desktop\Hibernate.lnk
 
+
 :*:hsd::hsddung92.lpdat@gmail.com
 :*:alone1::alone147896321@gmail.com
 :*:ledat.fake::ledat.fake@gmail.com
@@ -34,9 +35,12 @@ F5::Run, C:\Users\ASUS\Desktop\Hibernate.lnk
 :*:j-::-----------------------------------------------------------
 ; vim user
 Capslock::Esc
-
+; backward in chrome
 !z::Send, {AltDown}{Left}{AltUp}
-	
+
+; delete current line typing (if not terminal)
++BackSpace::Send, {ShiftDown}{Home}{ShiftUp}{Del}
+
 ; change volume 
 >!j::Send, {Volume_Down}
 >!k::Send, {Volume_Up}
@@ -101,6 +105,9 @@ return
 ; #IfWinActive ;; end of condition IfWinActive
 ; Return
  
+
+
+
 ^F2::Edit
 
 
