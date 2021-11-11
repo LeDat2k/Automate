@@ -39,7 +39,7 @@ Capslock::Esc
 !z::Send, {AltDown}{Left}{AltUp}
 
 ; delete current line typing (if not terminal)
-+BackSpace::Send, {ShiftDown}{Home}{ShiftUp}{Del}
+; +BackSpace::Send, {ShiftDown}{Home}{ShiftUp}{Del}
 
 ; change volume 
 >!j::Send, {Volume_Down}
