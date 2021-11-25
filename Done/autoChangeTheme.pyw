@@ -7,10 +7,12 @@ from icecream import ic
 def main():
     print("Running...")
 
+    now = datetime.datetime.now()
+
     light_time, dark_time = wintheme.timeline()
+    dark_time = datetime.datetime(now.year, now.month, now.day, 16, 0)
     # dark_time = datetime.datetime(2021,8,29,17,7,0)
 
-    now = datetime.datetime.now()
     if now >= light_time and now < dark_time:
         is_light = True
         n_change = 1 # 1 times to change theme then end the program
