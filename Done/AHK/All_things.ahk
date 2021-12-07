@@ -20,6 +20,9 @@ F5::Run, C:\Users\ASUS\Desktop\Hibernate.lnk
 :*:taskkill::taskkill /IM pythonw.exe /F
 :*:312::3120219024
 :*::phone::0869570027
+:*::cccd::046200006211
+:*::bhxh::4620515813
+
 ; ------------------------------------------------------------
 ; computer win 10 Directory PATHs
 :*:\class::D:\Class\
@@ -105,9 +108,6 @@ return
 ; #IfWinActive ;; end of condition IfWinActive
 ; Return
  
-
-
-
 ^F2::Edit
 
 
