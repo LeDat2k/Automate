@@ -3,8 +3,6 @@
 @REM start gmail.bat @REM can't close cmd window
 @REM start "gmail.bat" @REM can't close cmd windows
 
-rem start https://app.simplenote.com/
-rem "C:\Users\ASUS\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chrome Apps\notion.so.lnk"
 start https://app.stormgain.com/crypto-miner/
 start autoChangeTheme.pyw
 start pomodoro.pyw
