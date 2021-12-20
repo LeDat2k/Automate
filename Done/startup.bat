@@ -3,7 +3,7 @@
 @REM start gmail.bat @REM can't close cmd window
 @REM start "gmail.bat" @REM can't close cmd windows
 
-start https://app.stormgain.com/crypto-miner/
+start crypto_mine.pyw
 start autoChangeTheme.pyw
 start pomodoro.pyw
 start AHK\All_things.ahk
