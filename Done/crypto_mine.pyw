@@ -10,19 +10,19 @@ def main():
         now = datetime.datetime.now()
         webbrowser.open('https://app.stormgain.com/crypto-miner/')
         ans = ans-1
-        time.sleep(4*3600)
+        # time.sleep(4*3600)
 
-        # if (now.hour+4)>23:
-        #     next_time = datetime.datetime(now.year, now.month, now.day+1, now.hour+4-24, now.minute, now.second)
-        # else:
-        #     next_time = datetime.datetime(now.year, now.month, now.day, now.hour+4, now.minute, now.second)
+        if (now.hour+4)>23:
+            next_time = datetime.datetime(now.year, now.month, now.day+1, now.hour+4-24, now.minute, now.second)
+        else:
+            next_time = datetime.datetime(now.year, now.month, now.day, now.hour+4, now.minute, now.second)
 
-        # while True:
-        #     now_time = datetime.datetime.now()
-        #     # ic(now_time)
-        #     if now_time >= next_time:
-        #         break
-        #     time.sleep(1)
+        while True:
+            now_time = datetime.datetime.now()
+            # ic(now_time)
+            if now_time >= next_time:
+                break
+            time.sleep(1)
 
 try:
     main()
