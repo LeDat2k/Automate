@@ -1,0 +1,508 @@
+TASK com.shopee.vn id=164 userId=0
+  ACTIVITY com.shopee.vn/com.shopee.app.ui.webview.WebPageActivity_ 50a4799 pid=10254
+    Local Activity 906434a State:
+      mResumed=true mStopped=false mFinished=false
+      mLastDispatchedIsInMultiWindowMode=null mLastDispatchedIsInPictureInPictureMode=null
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 452mcc4mnc [en_US] ldltr sw384dp w384dp h658dp 300dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 720, 1280) mAppBounds=Rect(0, 0 - 720, 1280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2}
+      mLoadersStarted=true
+      Active Fragments in b021dad:
+        #0: ReportFragment{5bf88e2 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{b021dad in HostCallbacks{f0e5473}}
+          mHost=android.app.Activity$HostCallbacks@f0e5473
+          Child FragmentManager{ac72f30 in ReportFragment{5bf88e2}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@f0e5473
+              mContainer=android.app.Fragment$1@64fe7a9
+              mParent=ReportFragment{5bf88e2 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{5bf88e2 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@f0e5473
+        mContainer=android.app.Activity$HostCallbacks@f0e5473
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=true
+      mLastFrameTime=130296678 (4 ms ago)
+    
+InsetsController:
+      InsetsState
+        InsetsSource type=TYPE_UNKNOWN_10 frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][720,45] visible=true
+        InsetsSource type=TYPE_RIGHT_GESTURES frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_LEFT_GESTURES frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_TOP_GESTURES frame=[0,0][720,45] visible=true
+        InsetsSource type=TYPE_SIDE_BAR_1 frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_TOP_BAR frame=[0,0][720,45] visible=true
+    View Hierarchy:
+      DecorView@e51512e[WebPageActivity_]
+        android.widget.LinearLayout{6efc4cf V.E...... ........ 0,0-720,1280}
+          android.view.ViewStub{9280e5c G.E...... ......I. 0,0-0,0 #1020194 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{1965565 V.E...... ........ 0,45-720,1280 #1020002 android:id/content}
+            com.shopee.app.ui.base.BaseActionActivity$ActivityBaseActionView{c25523a V.E...... ........ 0,0-720,1235}
+              com.shopee.app.ui.common.ExceptionCatchDrawerLayout{dcddeeb VFE...... ........ 0,0-720,1235}
+                android.widget.LinearLayout{f55b448 V.E...... ........ 0,0-720,1235}
+                  com.shopee.app.ui.actionbar.ActionBar_{69f6f97 V.E...... ........ 0,0-720,105}
+                    android.widget.Space{c1be2e1 I.ED..... ......I. 0,0-4,0 #7f0a0738 app:id/leading_space}
+                    android.widget.ImageButton{2065806 VFED..C.. ........ 4,0-87,105 #7f0a05bc app:id/home_btn}
+                    android.widget.RelativeLayout{6297ec7 V.E...... ........ 87,0-546,105 #7f0a0809 app:id/main_container}
+                      android.widget.LinearLayout{935ccf4 V.E...... ........ 0,0-459,105 #7f0a0cd3 app:id/title_box}
+                        android.widget.RelativeLayout{912cc1d V.E...... ........ 0,0-459,105 #7f0a0cd5 app:id/title_container}
+                          com.shopee.app.ui.common.IconImageView_{86bf1a2 G.ED..... ......I. 0,0-0,0 #7f0a0b37 app:id/search_icon}
+                          android.widget.LinearLayout{29fee92 V.E...... ........ 0,0-459,105 #7f0a0cdc app:id/title_text_container}
+                            android.widget.LinearLayout{fb54063 V.E...... ........ 19,26-440,78 #7f0a0cd6 app:id/title_heading_container}
+                              android.widget.TextView{95cc460 VFED..CL. ........ 0,0-421,52 #7f0a0cdb app:id/title_text}
+                            android.widget.TextView{2950d19 G.ED..... ......I. 0,0-0,0 #7f0a0c06 app:id/sub_title}
+                      android.widget.ImageView{dca61de G.ED..... ......I. 0,0-0,0 #7f0a0cd7 app:id/title_icon}
+                      com.shopee.app.ui.actionbar.SearchView_{401a5f0 G.E...... ......I. 0,0-0,0 #7f0a0b3e app:id/search_view}
+                        android.widget.LinearLayout{8b17fbf V.E...... ......I. 0,0-0,0}
+                          com.rengwuxian.materialedittext.MaterialEditText{539c68c VFED..CL. ......I. 0,0-0,0 #7f0a0b32 app:id/search_edit}
+                          android.widget.ProgressBar{6061d5 G.ED..... ......I. 0,0-0,0 #7f0a09c6 app:id/progress}
+                          android.widget.ImageButton{696bdea GFED..C.. ......I. 0,0-0,0 #7f0a03d1 app:id/cross_btn}
+                    android.widget.LinearLayout{90858db V.E...... ........ 546,0-716,105 #7f0a005a app:id/action_container}
+                      android.widget.RelativeLayout{802bf78 V.E...... ........ 0,0-170,105}
+                        android.widget.TextView{e524651 VFED..C.. ........ 0,0-170,105 #7f0a0048 app:id/action}
+                        com.shopee.design.badgeview.BadgeView{e1aceb6 I.ED..... ......ID 145,30-147,54}
+                    android.widget.Space{329a7b7 I.ED..... ......I. 716,0-720,0 #7f0a0d08 app:id/trailing_space}
+                  com.shopee.app.ui.common.DrawShadowFrameLayout{8605b24 V.ED..... ........ 0,105-720,1235}
+                    com.shopee.app.ui.webview.WebPageView_{443ba67 V.E...... ........ 0,0-720,1130}
+                      androidx.swiperefreshlayout.widget.SwipeRefreshLayout{ea3f68d V..D..... ........ 0,0-720,1130 #7f0a0c1b app:id/swipe_container}
+                        android.widget.FrameLayout{efd2042 V.E...... ........ 0,0-720,1130 #7f0a0f65 app:id/webview_root}
+                          com.shopee.app.ui.webview.TouchWebView{6a70853 VFEDHVCL. ........ 0,0-720,1130 #7f0a0f62 app:id/webView}
+                          com.pnikosis.materialishprogress.ProgressWheel{cda0590 G.ED..... ......I. 332,537-388,593 #7f0a09d6 app:id/progress_wheel}
+                          com.shopee.app.ui.webview.WebPageErrorView{3e66e89 G.E...... ......I. 0,0-0,0 #7f0a04a1 app:id/error}
+                            android.widget.LinearLayout{5c0fe8e V.E...... ......I. 0,0-0,0}
+                              android.widget.ImageView{8fd6af V.ED..... ......ID 0,0-0,0 #7f0a04a3 app:id/errorIv}
+                              android.widget.TextView{b01eabc V.ED..... ......ID 0,0-0,0 #7f0a04a5 app:id/errorTitleTv}
+                              android.widget.TextView{ebe6a45 V.ED..... ......ID 0,0-0,0 #7f0a04a4 app:id/errorMessageTv}
+                              android.widget.TextView{1d2759a VFED..C.. ......I. 0,0-0,0 #7f0a0a49 app:id/retryBtn}
+                        androidx.swiperefreshlayout.widget.CircleImageView{58d2ecb G.ED..... ......ID 323,-75-397,0}
+                      android.widget.FrameLayout{d60f6a8 G.E...... ......I. 0,0-0,0 #7f0a008f app:id/alert_bar}
+                        android.widget.TextView{b6065c1 V.ED..... ......I. 0,0-0,0 #7f0a0090 app:id/alert_bar_label}
+                android.widget.FrameLayout{b525166 I.E...... ......ID 720,0-1260,1235}
+        android.view.View{1bdeca7 V.ED..... ........ 0,0-720,45 #102002f android:id/statusBarBackground}
+    Looper (main, tid 2) {48460ac}
+      Message 0: { when=+25m4s325ms callback=androidx.work.impl.background.greedy.DelayedWorkTracker$1 target=android.os.Handler }
+      Message 1: { when=+49m19s385ms callback=com.shopee.sz.endpoint.endpointservice.k$d target=android.os.Handler }
+      Message 2: { when=+1h59m20s811ms callback=androidx.work.impl.background.greedy.DelayedWorkTracker$1 target=android.os.Handler }
+      (Total messages: 3, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: android.app.ContextImpl@c22d554
+      client: com.shopee.app.ui.webview.WebPageActivity_@906434a (android.os.BinderProxy@53a513e)
+      enabled: true
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: true
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=0, compatMode=false, augmented=false
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    ResourcesManager:
+      cached apks: 0 [cache disabled]
+      total apks: 25
+      resources: 8
+      resource impls: 9
+
+  ACTIVITY com.shopee.vn/com.shopee.app.ui.home.HomeActivity_ 7d154f4 pid=10254
+    Local Activity c5adbe6 State:
+      mResumed=false mStopped=true mFinished=false
+      mLastDispatchedIsInMultiWindowMode=null mLastDispatchedIsInPictureInPictureMode=null
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 452mcc4mnc [en_US] ldltr sw384dp w384dp h658dp 300dpi nrml long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 720, 1280) mAppBounds=Rect(0, 0 - 720, 1280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.2}
+      mLoadersStarted=true
+      Active Fragments in 933cd52:
+        #0: ReportFragment{a52ac43 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{933cd52 in HostCallbacks{481f2c0}}
+          mHost=android.app.Activity$HostCallbacks@481f2c0
+          Child FragmentManager{3cb0bf9 in ReportFragment{a52ac43}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@481f2c0
+              mContainer=android.app.Fragment$1@6b0273e
+              mParent=ReportFragment{a52ac43 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=3 mStateSaved=true mDestroyed=false
+        #1: RequestManagerFragment{ce9c99f #1 com.bumptech.glide.manager}{parent=null}
+          mFragmentId=#0 mContainerId=#0 mTag=com.bumptech.glide.manager
+          mState=3 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{933cd52 in HostCallbacks{481f2c0}}
+          mHost=android.app.Activity$HostCallbacks@481f2c0
+          Child FragmentManager{af37aec in RequestManagerFragment{ce9c99f}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@481f2c0
+              mContainer=android.app.Fragment$1@7a76eb5
+              mParent=RequestManagerFragment{ce9c99f #1 com.bumptech.glide.manager}{parent=null}
+              mCurState=3 mStateSaved=true mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{a52ac43 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+        #1: RequestManagerFragment{ce9c99f #1 com.bumptech.glide.manager}{parent=null}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@481f2c0
+        mContainer=android.app.Activity$HostCallbacks@481f2c0
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=true
+      mLastFrameTime=130296695 (15 ms ago)
+    
+InsetsController:
+      InsetsState
+        InsetsSource type=TYPE_UNKNOWN_10 frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][720,45] visible=true
+        InsetsSource type=TYPE_RIGHT_GESTURES frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_LEFT_GESTURES frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_TOP_GESTURES frame=[0,0][720,45] visible=true
+        InsetsSource type=TYPE_SIDE_BAR_1 frame=[0,0][0,0] visible=false
+        InsetsSource type=TYPE_TOP_BAR frame=[0,0][720,45] visible=true
+    View Hierarchy:
+      DecorView@b03794a[HomeActivity_]
+        android.widget.LinearLayout{8ab60bb V.E...... ......ID 0,0-720,1280}
+          android.view.ViewStub{41359d8 G.E...... ......I. 0,0-0,0 #1020194 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{6ad4131 V.E...... ......ID 0,0-720,1280 #1020002 android:id/content}
+            com.shopee.app.ui.base.BaseActionActivity$ActivityBaseNoActionView{e87e016 V.E...... ......ID 0,0-720,1280}
+              android.widget.LinearLayout{d254d97 V.E...... ......ID 0,0-720,1280}
+                com.shopee.app.ui.common.DrawShadowFrameLayout{503b84 V.ED..... ......ID 0,0-720,1280}
+                  com.shopee.app.ui.home.HomeView_{90e8ec7 V.E...... ......ID 0,0-720,1280 #7f0a05c0 app:id/home_view}
+                    com.shopee.app.ui.home.mall.NestedTabView{63bf6d V.E...... ......ID 0,0-720,1186 #7f0a0bbf app:id/sp_home_tab_view}
+                      android.widget.HorizontalScrollView{a19e7a2 VFED..... ........ 0,0-720,0}
+                        android.widget.FrameLayout{ae72c33 V.E...... ......I. 0,0-0,0}
+                          android.widget.LinearLayout{6578bf0 V.E...... ......I. 0,0-0,0}
+                            com.shopee.app.ui.home.p$a{b89e569 GFE...C.. ......I. 0,0-0,0}
+                            com.shopee.app.ui.home.p$a{5d2dbee GFE...C.. ......I. 0,0-0,0}
+                            com.shopee.app.ui.home.p$a{1de588f GFE...C.. ......I. 0,0-0,0}
+                            com.shopee.app.ui.home.p$a{841771c GFE...C.. ......I. 0,0-0,0}
+                            com.shopee.app.ui.home.p$a{1d26f25 GFE...C.. ......I. 0,0-0,0}
+                      com.garena.android.uikit.tab.GTabViewPager{14c8fa VFED..... ......ID 0,0-720,1186}
+                        com.shopee.app.ui.home.react.ReactTabView{8200d8d V.E...... .......D 0,0-720,1186}
+                          com.shopee.app.react.ReactBaseView{971eeab V.E...... ......ID 0,0-720,1186}
+                            com.facebook.react.ReactRootView{45259cd V.E...... .......D 0,0-720,1186 #1}
+                              com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout{f7ce908 V.ED..... .......D 0,0-720,1186 #c5}
+                                com.garena.rnrecyclerview.library.sticky2.ReactStickyRecyclerLayout{b5fd8a1 V.E...... .......D 0,0-720,1186 #c3}
+                                  com.garena.rnrecyclerview.library.recycler.ReactRecyclerView{9567ac6 VFED.V... .......D 0,0-720,1186 #bd}
+                                    com.garena.rnrecyclerview.library.recycler.ReactWrappableViewGroup{e5eca87 V.E...... .......D 0,0-720,1349}
+                                      com.garena.rnrecyclerview.library.view.ReactRecyclerItemView{b7b8db4 V.E...... .......D 0,0-720,1349 #7b}
+                                        com.facebook.react.views.view.ReactViewGroup{6005ddd V.E...... ......ID 0,0-720,456 #103}
+                                          com.facebook.react.views.scroll.ReactHorizontalScrollView{68c3d34 VFED..... .......D 0,-17-720,366 #701}
+                                            com.facebook.react.views.scroll.ReactHorizontalScrollContainerView{af7d52 V.E...... .......D 0,0-12240,383 #6fd}
+                                              com.shopee.react.modules.imageview.RNImageView{cd9e60f V.ED..... ......ID 0,0-720,383 #69f}
+                                              com.facebook.react.views.view.ReactViewGroup{b79b69c VFE...C.. ........ 0,0-720,383 #6a3}
+                                              com.shopee.react.modules.imageview.RNImageView{4bcaac V.ED..... ......ID 720,0-1440,383 #8e1}
+                                              com.facebook.react.views.view.ReactViewGroup{50de375 VFE...C.. ........ 720,0-1440,383 #8e5}
+                                              com.facebook.react.views.view.ReactViewGroup{3b5af0a V.E...... .......D 1440,0-2160,383 #8f9}
+                                                com.shopee.react.modules.imageview.RNImageView{9f680fe V.ED..... ......ID 0,0-720,383 #8ed}
+                                                com.facebook.react.views.view.ReactViewGroup{bb6805f VFE...C.. ........ 0,0-720,383 #8f1}
+                                              com.shopee.react.modules.imageview.RNImageView{b6cc37b V.ED..... ......ID 2160,0-2880,383 #8fb}
+                                              com.facebook.react.views.view.ReactViewGroup{d00e598 VFE...C.. ........ 2160,0-2880,383 #901}
+                                              com.shopee.react.modules.imageview.RNImageView{aa0be46 V.ED..... ......ID 11520,0-12240,383 #6f1}
+                                              com.facebook.react.views.view.ReactViewGroup{8e8807 VFE...C.. ........ 11520,0-12240,383 #6f7}
+                                          com.facebook.react.views.view.ReactViewGroup{e94175d V.E...... ......ID 171,324-182,336 #703}
+                                          com.facebook.react.views.view.ReactViewGroup{31a78d2 V.E...... ......ID 197,324-208,336 #705}
+                                          com.facebook.react.views.view.ReactViewGroup{7819da3 V.E...... ......ID 223,324-234,336 #707}
+                                          com.facebook.react.views.view.ReactViewGroup{f49f8a0 V.E...... ......ID 249,324-261,336 #70b}
+                                          com.facebook.react.views.view.ReactViewGroup{7ffcc59 V.E...... ......ID 276,324-287,336 #70d}
+                                          com.facebook.react.views.view.ReactViewGroup{e03501e V.E...... ......ID 302,324-313,336 #70f}
+                                          com.facebook.react.views.view.ReactViewGroup{f0670ff V.E...... ......ID 328,324-339,336 #711}
+                                          com.facebook.react.views.view.ReactViewGroup{65fecc V.E...... ......ID 354,324-366,336 #715}
+                                          com.facebook.react.views.view.ReactViewGroup{cd7d515 V.E...... ......ID 381,324-392,336 #717}
+                                          com.facebook.react.views.view.ReactViewGroup{e10502a V.E...... ......ID 407,324-418,336 #719}
+                                          com.facebook.react.views.view.ReactViewGroup{fdb1e1b V.E...... ......ID 433,324-444,336 #71b}
+                                          com.facebook.react.views.view.ReactViewGroup{75a3bb8 V.E...... ......ID 459,324-471,336 #71f}
+                                          com.facebook.react.views.view.ReactViewGroup{7edad91 V.E...... ......ID 486,324-497,336 #721}
+                                          com.facebook.react.views.view.ReactViewGroup{a3b44f6 V.E...... ......ID 512,324-523,336 #723}
+                                          com.facebook.react.views.view.ReactViewGroup{68380f7 V.E...... ......ID 538,324-549,336 #725}
+                                          com.shopee.react.modules.imageview.RNImageView{3a73f69 V.ED..... ......ID 8,336-713,471 #cf}
+                                          com.facebook.react.views.view.ReactViewGroup{7be2dee V.E...... ......ID 23,351-698,456 #ff}
+                                            com.facebook.react.views.view.ReactViewGroup{99419a2 VFE...C.. .......D 0,0-105,105 #d5}
+                                              com.shopee.react.modules.imageview.RNImageView{9ade8b5 V.ED..... ......ID 23,23-83,83 #d1}
+                                            com.facebook.react.views.view.ReactViewGroup{92a7633 VFE...C.. .......D 105,0-390,105 #e9}
+                                              com.facebook.react.views.view.ReactViewGroup{cf16b4a V.E...... ......ID 0,23-1,83 #d7}
+                                              com.shopee.react.modules.imageview.RNImageView{6b76abb V.ED..... ......ID 23,24-53,54 #d9}
+                                              com.facebook.react.views.text.ReactTextView{d63a321 V.ED..... ........ 61,20-225,57 #553}
+                                              com.facebook.react.views.text.ReactTextView{ba6b346 V.ED..... ........ 23,56-263,83 #557}
+                                            com.facebook.react.views.view.ReactViewGroup{58a0df0 VFE...C.. .......D 390,0-675,105 #fd}
+                                              com.facebook.react.views.view.ReactViewGroup{662f216 V.E...... ......ID 0,23-1,83 #eb}
+                                              com.shopee.react.modules.imageview.RNImageView{e7f797 V.ED..... ......ID 23,24-53,54 #ed}
+                                              com.facebook.react.views.text.ReactTextView{ebdd907 V.ED..... ........ 61,20-263,57 #55d}
+                                              com.facebook.react.views.text.ReactTextView{15fba34 V.ED..... ........ 23,56-263,83 #561}
+                                        com.facebook.react.views.view.ReactViewGroup{2538823 V.E...... ......ID 0,456-720,840 #297}
+                                          com.facebook.react.views.scroll.ReactHorizontalScrollView{c448937 VFED..... .......D 0,0-720,367 #28d}
+                                            com.facebook.react.views.scroll.ReactHorizontalScrollContainerView{f1dd120 V.E...... .......D 0,8-1740,361 #289}
+                                              com.facebook.react.views.view.ReactViewGroup{6e359e3 V.E...... .......D 4,0-161,353 #127}
+                                                com.facebook.react.views.view.ReactViewGroup{a8e72a1 VFE...C.. .......D 0,0-157,176 #111}
+                                                  com.shopee.react.modules.imageview.RNImageView{51a191c V.ED..... ......ID 41,15-116,90 #107}
+                                                  com.facebook.react.views.view.ReactViewGroup{76b6925 V.E...... ........ 4,90-154,176 #10d}
+                                                    com.facebook.react.views.text.ReactTextView{ef42b82 V.ED..... ........ 0,15-150,65 #90d}
+                                                com.facebook.react.views.view.ReactViewGroup{f1a0cc6 VFE...C.. .......D 0,176-157,353 #11f}
+                                                  com.shopee.react.modules.imageview.RNImageView{f9478ab V.ED..... ......ID 41,15-116,90 #115}
+                                                  com.facebook.react.views.view.ReactViewGroup{e3dab08 V.E...... ........ 4,90-154,177 #11d}
+                                                    com.facebook.react.views.text.ReactTextView{bc45293 V.ED..... ........ 0,15-150,65 #913}
+                                              com.facebook.react.views.view.ReactViewGroup{cc29fe0 V.E...... .......D 162,0-320,353 #149}
+                                                com.facebook.react.views.view.ReactViewGroup{351d4d9 VFE...C.. .......D 0,0-158,176 #133}
+                                                  com.shopee.react.modules.imageview.RNImageView{2866fb4 V.ED..... ......ID 41,15-116,90 #129}
+                                                  com.facebook.react.views.view.ReactViewGroup{27e97dd V.E...... ........ 4,90-154,176 #131}
+                                                    com.facebook.react.views.text.ReactTextView{47222d0 V.ED..... ........ 0,15-150,65 #917}
+                                                com.facebook.react.views.view.ReactViewGroup{187ee9e VFE...C.. .......D 0,176-158,353 #143}
+                                                  com.shopee.react.modules.imageview.RNImageView{4fd5223 V.ED..... ......ID 41,15-116,90 #139}
+                                                  com.facebook.react.views.view.ReactViewGroup{8f4d320 V.E...... ........ 24,90-134,177 #13f}
+                                                    com.facebook.react.views.text.ReactTextView{81462c9 V.ED..... ........ 0,15-110,42 #91d}
+                                              com.facebook.react.views.view.ReactViewGroup{2d48299 V.E...... .......D 319,0-476,353 #16d}
+                                                com.facebook.react.views.view.ReactViewGroup{9684611 VFE...C.. .......D 0,0-157,176 #157}
+                                                  com.shopee.react.modules.imageview.RNImageView{624014c V.ED..... ......ID 41,15-116,90 #14d}
+                                                  com.facebook.react.views.view.ReactViewGroup{281e595 V.E...... ........ 4,90-154,176 #153}
+                                                    com.facebook.react.views.text.ReactTextView{73d7dce V.ED..... ........ 0,15-150,65 #921}
+                                                com.facebook.react.views.view.ReactViewGroup{8e53376 VFE...C.. .......D 0,176-157,353 #165}
+                                                  com.shopee.react.modules.imageview.RNImageView{188e29b V.ED..... ......ID 41,15-116,90 #15b}
+                                                  com.facebook.react.views.view.ReactViewGroup{b35e638 V.E...... ........ 6,90-151,177 #163}
+                                                    com.facebook.react.views.text.ReactTextView{cd784ef V.ED..... ........ 0,15-145,42 #927}
+                                              com.facebook.react.views.view.ReactViewGroup{f9c695e V.E...... .......D 477,0-635,353 #18f}
+                                                com.facebook.react.views.view.ReactViewGroup{444a649 VFE...C.. .......D 0,0-158,176 #179}
+                                                  com.shopee.react.modules.imageview.RNImageView{77f2de4 V.ED..... ......ID 41,15-116,90 #16f}
+                                                  com.facebook.react.views.view.ReactViewGroup{37a324d V.E...... ........ 4,90-154,176 #177}
+                                                    com.facebook.react.views.text.ReactTextView{21e9bfc V.ED..... ........ 0,15-150,65 #92b}
+                                                com.facebook.react.views.view.ReactViewGroup{15b3b4e VFE...C.. .......D 0,176-158,353 #189}
+                                                  com.shopee.react.modules.imageview.RNImageView{1f70a13 V.ED..... ......ID 41,15-116,90 #17f}
+                                                  com.facebook.react.views.view.ReactViewGroup{8f34450 V.E...... ........ 4,90-154,177 #185}
+                                                    com.facebook.react.views.text.ReactTextView{b776285 V.ED..... ........ 0,15-150,65 #931}
+                                              com.facebook.react.views.view.ReactViewGroup{a67b13f V.E...... .......D 634,0-791,353 #1b3}
+                                                com.facebook.react.views.view.ReactViewGroup{ad5d581 VFE...C.. .......D 0,0-157,176 #19d}
+                                                  com.shopee.react.modules.imageview.RNImageView{750557c V.ED..... ......ID 41,15-116,90 #193}
+                                                  com.facebook.react.views.view.ReactViewGroup{1285e05 V.E...... ........ 4,90-154,176 #199}
+                                                    com.facebook.react.views.text.ReactTextView{9b7a8da V.ED..... ........ 0,15-150,65 #935}
+                                                com.facebook.react.views.view.ReactViewGroup{6df6626 VFE...C.. .......D 0,176-157,353 #1ab}
+                                                  com.shopee.react.modules.imageview.RNImageView{f23a88b V.ED..... ......ID 41,15-116,90 #1a1}
+                                                  com.facebook.react.views.view.ReactViewGroup{60b4d68 V.E...... ........ 4,90-154,177 #1a9}
+                                                    com.facebook.react.views.text.ReactTextView{b41810b V.ED..... ........ 0,15-150,65 #93b}
+                                              com.facebook.react.views.view.ReactViewGroup{be1da0c V.E...... .......D 792,0-950,353 #1d5}
+                                                com.facebook.react.views.view.ReactViewGroup{5869e03 VFE...C.. .......D 0,0-158,176 #1bf}
+                                                  com.shopee.react.modules.imageview.RNImageView{9b77be8 V.ED..... ......ID 41,15-116,90 #93d}
+                                                  com.facebook.react.views.view.ReactViewGroup{8fbd814 V.E...... ........ 4,90-154,176 #1bd}
+                                                    com.facebook.react.views.text.ReactTextView{850a201 V.ED..... ........ 0,15-150,65 #941}
+                                                com.facebook.react.views.view.ReactViewGroup{7c86180 VFE...C.. .......D 0,176-158,353 #1cf}
+                                                  com.shopee.react.modules.imageview.RNImageView{97778a6 V.ED..... ......ID 41,15-116,90 #945}
+                                                  com.facebook.react.views.view.ReactViewGroup{7cbbeb2 V.E...... ........ 26,90-131,177 #1cb}
+                                                    com.facebook.react.views.text.ReactTextView{50522e7 V.ED..... ........ 0,15-105,42 #949}
+                                              com.facebook.react.views.view.ReactViewGroup{e1af55 V.E...... .......D 949,0-1106,353 #1f9}
+                                                com.facebook.react.views.view.ReactViewGroup{555d275 VFE...C.. .......D 0,0-157,176 #1e3}
+                                                  com.shopee.react.modules.imageview.RNImageView{97c6e94 V.ED..... ......ID 41,15-116,90 #94b}
+                                                  com.facebook.react.views.view.ReactViewGroup{2b313fe V.E...... ........ 4,90-154,176 #1df}
+                                                    com.facebook.react.views.text.ReactTextView{e245d3d V.ED..... ........ 0,15-150,65 #951}
+                                                com.facebook.react.views.view.ReactViewGroup{728720a VFE...C.. .......D 0,176-157,353 #1f1}
+                                                  com.shopee.react.modules.imageview.RNImageView{4127932 V.ED..... ......ID 41,15-116,90 #953}
+                                                  com.facebook.react.views.view.ReactViewGroup{c1215ac V.E...... ........ 4,90-154,177 #1ef}
+                                                    com.facebook.react.views.text.ReactTextView{b770683 V.ED..... ........ 0,15-150,65 #959}
+                                              com.facebook.react.views.view.ReactViewGroup{441bd6a V.E...... .......D 1107,0-1265,353 #21b}
+                                                com.facebook.react.views.view.ReactViewGroup{8aa9357 VFE...C.. .......D 0,0-158,176 #205}
+                                                  com.shopee.react.modules.imageview.RNImageView{1fbe000 V.ED..... ......ID 41,15-116,90 #95b}
+                                                  com.facebook.react.views.view.ReactViewGroup{660e098 V.E...... ........ 14,90-143,176 #203}
+                                                    com.facebook.react.views.text.ReactTextView{67e9039 V.ED..... ........ 0,15-129,42 #95f}
+                                                com.facebook.react.views.view.ReactViewGroup{5cf6e44 VFE...C.. .......D 0,176-158,353 #215}
+                                                  com.shopee.react.modules.imageview.RNImageView{8eaf67e V.ED..... ......ID 41,15-116,90 #963}
+                                                  com.facebook.react.views.view.ReactViewGroup{8e3a4d6 V.E...... ........ 16,90-141,177 #211}
+                                                    com.facebook.react.views.text.ReactTextView{69987df V.ED..... ........ 0,15-125,42 #967}
+                                              com.facebook.react.views.view.ReactViewGroup{1b0225b V.E...... .......D 1264,0-1421,353 #23f}
+                                                com.facebook.react.views.view.ReactViewGroup{bdefd29 VFE...C.. .......D 0,0-157,176 #229}
+                                                  com.shopee.react.modules.imageview.RNImageView{c3efc2c V.ED..... ......ID 41,15-116,90 #969}
+                                                  com.facebook.react.views.view.ReactViewGroup{d4d3862 V.E...... ........ 4,90-154,176 #225}
+                                                    com.facebook.react.views.text.ReactTextView{daef6f5 V.ED..... ........ 0,15-150,65 #96f}
+                                                com.facebook.react.views.view.ReactViewGroup{5ca78ae VFE...C.. .......D 0,176-157,353 #237}
+                                                  com.shopee.react.modules.imageview.RNImageView{93bfc8a V.ED..... ......ID 41,15-116,90 #971}
+                                                  com.facebook.react.views.view.ReactViewGroup{e772ab0 V.E...... ........ 4,90-154,177 #235}
+                                                    com.facebook.react.views.text.ReactTextView{238c2fb V.ED..... ........ 0,15-150,65 #977}
+                                              com.facebook.react.views.view.ReactViewGroup{fd88af8 V.E...... .......D 1422,0-1580,353 #261}
+                                                com.facebook.react.views.view.ReactViewGroup{48486b VFE...C.. .......D 0,0-158,176 #24b}
+                                                  com.shopee.react.modules.imageview.RNImageView{6b5af18 V.ED..... ......ID 41,15-116,90 #979}
+                                                  com.facebook.react.views.view.ReactViewGroup{a9c41dc V.E...... ........ 6,90-151,176 #249}
+                                                    com.facebook.react.views.text.ReactTextView{b450d71 V.ED..... ........ 0,15-145,42 #97d}
+                                                com.facebook.react.views.view.ReactViewGroup{2999fc8 VFE...C.. .......D 0,176-158,353 #25b}
+                                                  com.shopee.react.modules.imageview.RNImageView{ce55756 V.ED..... ......ID 41,15-116,90 #981}
+                                                  com.facebook.react.views.view.ReactViewGroup{2c971ba V.E...... ........ 25,90-133,177 #257}
+                                                    com.facebook.react.views.text.ReactTextView{c693d7 V.ED..... ........ 0,15-108,42 #985}
+                                              com.facebook.react.views.view.ReactViewGroup{d5aebd1 V.E...... .......D 1579,0-1736,353 #285}
+                                                com.facebook.react.views.view.ReactViewGroup{5fde99d VFE...C.. .......D 0,0-157,176 #26f}
+                                                  com.shopee.react.modules.imageview.RNImageView{4e2a4c4 V.ED..... ......ID 41,15-116,90 #987}
+                                                  com.facebook.react.views.view.ReactViewGroup{b8cef86 V.E...... ........ 4,90-154,176 #26b}
+                                                    com.facebook.react.views.text.ReactTextView{64c0fad V.ED..... ........ 0,15-150,65 #98d}
+                                                com.facebook.react.views.view.ReactViewGroup{6b87e12 VFE...C.. .......D 0,176-157,353 #27d}
+                                                  com.shopee.react.modules.imageview.RNImageView{7f792e2 V.ED..... ......ID 41,15-116,90 #98f}
+                                                  com.facebook.react.views.view.ReactViewGroup{78cf074 V.E...... ........ 4,90-154,177 #27b}
+                                                    com.facebook.react.views.text.ReactTextView{ff69673 V.ED..... ........ 0,15-150,65 #995}
+                                          com.facebook.react.views.view.ReactViewGroup{2875ea4 V.E...... ......ID 338,368-382,376 #291}
+                                            com.facebook.react.views.view.ReactViewGroup{8364636 V.E...... ......ID 0,0-18,8 #28f}
+                                          com.shopee.react.modules.imageview.RNImageView{951740d V.ED..... ......ID 8,-120-713,15 #293}
+                                        com.facebook.react.views.view.ReactViewGroup{429fad9 V.E...... .......D 0,840-720,1056 #73f}
+                                          com.shopee.react.modules.imageview.RNImageView{8f517da V.ED..... ......ID 0,0-720,216 #72d}
+                                          com.facebook.react.views.view.ReactViewGroup{a3bc40b VFE...C.. ........ 0,0-215,216 #733}
+                                          com.facebook.react.views.view.ReactViewGroup{cb002e8 VFE...C.. ........ 215,0-505,216 #735}
+                                          com.facebook.react.views.view.ReactViewGroup{f441d01 VFE...C.. ........ 505,0-720,216 #737}
+                                        com.facebook.react.views.view.ReactViewGroup{d241c9e VFE...C.. ......ID 0,1056-720,1349 #29d}
+                                          com.shopee.react.modules.imageview.RNImageView{8188fc2 V.ED..... ......ID 0,0-720,293 #29b}
+                                  com.garena.rnrecyclerview.library.sticky.StickyHeaderContainer{94c837f I........ ......ID 0,150-720,1186 #c1}
+                                androidx.swiperefreshlayout.widget.CircleImageView{8dedf4c G.ED..... ......ID 323,38-397,113}
+                              com.facebook.react.views.view.ReactViewGroup{fb66b95 V.E...... ......ID 0,0-720,150 #771}
+                                com.facebook.react.views.view.ReactViewGroup{dfb3877 V.E...... ........ 0,150-720,161 #76b}
+                                  com.BV.LinearGradient.LinearGradientView{d692a76 V.ED..... ........ 0,0-720,11 #769}
+                              com.facebook.react.views.view.ReactViewGroup{fb164aa V.E...... ........ 0,98-23,98 #775}
+                              com.facebook.react.views.view.ReactViewGroup{afd89b VFE...C.. ......ID 23,64-548,131 #785}
+                                com.shopee.react.modules.imageview.RNImageView{92bd54d V.ED..... ......ID 15,19-45,49 #779}
+                                com.facebook.react.views.text.ReactTextView{83f061f V.ED..... ........ 53,15-454,52 #7e3}
+                                com.facebook.react.views.view.ReactViewGroup{9e0e513 VFE...C.. .......D 473,15-511,52 #783}
+                                  com.shopee.react.modules.imageview.RNImageView{2357ce4 V.ED..... ......ID 0,0-38,37 #77f}
+                              com.facebook.react.views.view.ReactViewGroup{1c0a438 V.E...... .......D 548,60-720,135 #7ad}
+                                com.facebook.react.views.view.ReactViewGroup{10b6105 VFE...C.. .......D 8,0-83,75 #799}
+                                  com.facebook.react.views.view.ReactViewGroup{587124e V.E...... .......D 0,0-75,75 #797}
+                                    com.shopee.react.modules.imageview.RNImageView{a3f8350 V.ED..... ......ID 15,15-60,60 #78d}
+                                    com.facebook.react.views.view.ReactViewGroup{6ed7949 V.E...... .......D 38,4-71,38 #78f}
+                                      com.facebook.react.views.view.ReactViewGroup{103446a V.E...... ......ID 0,0-33,34 #7d7}
+                                        com.facebook.react.views.text.ReactTextView{1ad3d6c V.ED..... ........ 6,5-28,28 #7e9}
+                                com.facebook.react.views.view.ReactViewGroup{846055a VFE...C.. .......D 90,0-165,75 #7a7}
+                                  com.shopee.react.modules.imageview.RNImageView{86abf6f V.ED..... ......ID 15,15-60,60 #79d}
+                                  com.facebook.react.views.view.ReactViewGroup{aa1847c V.E...... .......D 26,4-82,38 #7a1}
+                                    com.facebook.react.views.view.ReactViewGroup{46ee9f8 V.E...... ......ID 0,0-56,34 #7df}
+                                      com.facebook.react.views.text.ReactTextView{9fcadcd V.ED..... ........ 12,5-45,28 #999}
+                              com.facebook.react.views.view.ReactViewGroup{bd93d44 V.E...... .......D 0,0-169,169 #7cf}
+                                com.facebook.react.views.view.ReactViewGroup{461c5e5 V.E...... .......D 0,0-169,169 #7c9}
+                                  com.facebook.react.views.view.ReactViewGroup{30f0dc VFE...C.. .......D 0,0-169,169 #7c5}
+                                    com.shopee.react.modules.imageview.RNImageView{eadcfae V.ED..... ......ID 0,0-169,169 #7b7}
+                                    com.facebook.react.views.view.ReactViewGroup{3dca14f V.E...... ......ID 0,17-34,51 #7bf}
+                                      com.facebook.react.views.text.ReactTextView{d6d5029 V.ED..... ........ 12,5-22,28 #7bb}
+                                com.facebook.react.views.view.ReactViewGroup{28e3e57 VFE...C.. ........ 124,0-169,45 #7cb}
+                              com.facebook.react.views.view.ReactViewGroup{c5f2c11 V.E...... ......ID 0,1186-720,1186 #5f}
+                        com.shopee.app.ui.home.react.ReactTabView{a192176 V.E...... ........ 720,0-1440,1186}
+                          com.shopee.app.react.ReactBaseView{c296377 V.E...... ........ 0,0-720,1186}
+                        com.shopee.app.ui.home.react.ReactTabView{ef7cbe4 V.E...... ........ 1440,0-2160,1186}
+                          com.shopee.app.react.ReactBaseView{5f9784d V.E...... ........ 0,0-720,1186}
+                        com.shopee.app.ui.home.LazyTabView{66ddf02 V.E...... ......ID 2160,0-2880,1186}
+                          com.shopee.app.ui.home.chat.ChatTab_{271112 V.E...... ......I. 0,0-0,0}
+                            android.widget.LinearLayout{446c013 V.E...... ......I. 0,0-0,0}
+                              android.widget.LinearLayout{257c250 V.E...... ......ID 0,0-0,0 #7f0a0f7e app:id/xiaomi_section}
+                                android.widget.TextView{6724c49 VFED..C.. ......ID 0,0-0,0 #7f0a0f7d app:id/xiaomi_notification_info}
+                                android.widget.ImageView{b5ee94e VFED..C.. ......I. 0,0-0,0 #7f0a0f7c app:id/xiaomi_cross}
+                              com.shopee.app.ui.actionbox2.view.NotificationTab{2d34a6f V.E...... ......I. 0,0-0,0 #7f0a0c34 app:id/tab_cont}
+                                android.widget.FrameLayout{57eb37c V.E...... ......I. 0,0-0,0}
+                                  android.widget.LinearLayout{f8a6405 V.E...... ......I. 0,0-0,0}
+                                com.garena.android.uikit.tab.GTabViewPager{9444c5a VFED..... ......I. 0,0-0,0}
+                        com.shopee.app.ui.home.react.ReactTabView{8f41e8b V.E...... ........ 2880,0-3600,1186}
+                          com.shopee.app.react.ReactBaseView{bc18b68 V.E...... ........ 0,0-720,1186}
+                    com.shopee.app.ui.home.bottom.BottomNavView{4523b81 V.E...... ......ID 0,1186-720,1280 #7f0a0bba app:id/sp_bottom_navigation_layout}
+                      com.shopee.app.ui.home.bottom.BottomNavItemView_{29e1eb6 VFE...CL. .......D 0,0-144,94}
+                        android.widget.FrameLayout{bead426 V.E...... .......D 0,2-144,92}
+                          androidx.constraintlayout.widget.ConstraintLayout{b041867 V.E...... ......ID 0,0-144,90}
+                            android.widget.ImageView{6d7f614 G.ED..... ......I. 50,11-95,58 #7f0a05cf app:id/icon}
+                            android.widget.ImageView{e660ebd G.ED..... ......I. 0,0-0,0 #7f0a0972 app:id/pinned_icon}
+                            android.widget.TextView{d200cb2 V.ED..... ........ 7,55-137,82 #7f0a0ccb app:id/title}
+                            androidx.constraintlayout.widget.Guideline{e2fd403 G.ED..... ......I. 72,0-72,0 #7f0a059e app:id/guideline}
+                            com.shopee.design.badgeview.BadgeView{a485f80 I.ED..... ......I. 72,0-74,24 #7f0a012d app:id/badge}
+                          android.widget.ImageView{ae9d9b9 V.ED..... ......ID 25,-12-119,82 #7f0a0c33 app:id/tab_animation_icon}
+                      com.shopee.app.ui.home.bottom.BottomNavItemView_{d5e4e8e VFE...CL. .......D 144,0-288,94}
+                        android.widget.FrameLayout{3fe41fe V.E...... .......D 0,2-144,92}
+                          androidx.constraintlayout.widget.ConstraintLayout{3d1ad5f V.E...... ......ID 0,0-144,90}
+                            android.widget.ImageView{993f3ac V.ED..... ......ID 50,11-95,58 #7f0a05cf app:id/icon}
+                            android.widget.ImageView{b455875 G.ED..... ......I. 0,0-0,0 #7f0a0972 app:id/pinned_icon}
+                            android.widget.TextView{cf8800a V.ED..... ........ 17,55-127,82 #7f0a0ccb app:id/title}
+                            androidx.constraintlayout.widget.Guideline{e8dc07b G.ED..... ......I. 72,0-72,0 #7f0a059e app:id/guideline}
+                            com.shopee.design.badgeview.BadgeView{d229e98 I.ED..... ......ID 72,0-91,19 #7f0a012d app:id/badge}
+                          android.widget.ImageView{5a006f1 V.ED..... ........ 25,-12-119,82 #7f0a0c33 app:id/tab_animation_icon}
+                      com.shopee.app.ui.home.bottom.BottomNavItemView_{ca7babc VFE...CL. .......D 288,0-432,94}
+                        android.widget.FrameLayout{6a692d6 V.E...... .......D 0,2-144,92}
+                          androidx.constraintlayout.widget.ConstraintLayout{d2de957 V.E...... ......ID 0,0-144,90}
+                            android.widget.ImageView{9ef0c44 V.ED..... ......ID 50,11-95,58 #7f0a05cf app:id/icon}
+                            android.widget.ImageView{11d212d G.ED..... ......I. 0,0-0,0 #7f0a0972 app:id/pinned_icon}
+                            android.widget.TextView{f510662 V.ED..... ........ 55,55-89,82 #7f0a0ccb app:id/title}
+                            androidx.constraintlayout.widget.Guideline{73dc3f3 G.ED..... ......I. 72,0-72,0 #7f0a059e app:id/guideline}
+                            com.shopee.design.badgeview.BadgeView{7f2a8b0 I.ED..... ......I. 72,0-74,24 #7f0a012d app:id/badge}
+                          android.widget.ImageView{9d7a329 I.ED..... ......ID 25,-12-119,82 #7f0a0c33 app:id/tab_animation_icon}
+                      com.shopee.app.ui.home.bottom.BottomNavItemView_{df4c59a VFE...CL. .......D 432,0-576,94}
+                        android.widget.FrameLayout{f3d26ae V.E...... .......D 0,2-144,92}
+                          androidx.constraintlayout.widget.ConstraintLayout{766ac4f V.E...... ......ID 0,0-144,90}
+                            android.widget.ImageView{3519fdc V.ED..... ......ID 50,11-95,58 #7f0a05cf app:id/icon}
+                            android.widget.ImageView{89e48e5 G.ED..... ......I. 0,0-0,0 #7f0a0972 app:id/pinned_icon}
+                            android.widget.TextView{bb8ffba V.ED..... ........ 27,55-118,82 #7f0a0ccb app:id/title}
+                            androidx.constraintlayout.widget.Guideline{f8bbe6b G.ED..... ......I. 65,0-65,0 #7f0a059e app:id/guideline}
+                            com.shopee.design.badgeview.BadgeView{446ddc8 V.ED..... ......ID 65,0-113,34 #7f0a012d app:id/badge}
+                          android.widget.ImageView{a6f8e61 V.ED..... ........ 25,-12-119,82 #7f0a0c33 app:id/tab_animation_icon}
+                      com.shopee.app.ui.home.bottom.BottomNavItemView_{b93c6a8 VFE...CL. .......D 576,0-720,94}
+                        android.widget.FrameLayout{ee75d86 V.E...... .......D 0,2-144,92}
+                          androidx.constraintlayout.widget.ConstraintLayout{2a5d647 V.E...... ......ID 0,0-144,90}
+                            android.widget.ImageView{9d00e74 V.ED..... ......ID 50,11-95,58 #7f0a05cf app:id/icon}
+                            android.widget.ImageView{3b5af9d G.ED..... ......I. 0,0-0,0 #7f0a0972 app:id/pinned_icon}
+                            android.widget.TextView{4bcc12 V.ED..... ........ 59,55-85,82 #7f0a0ccb app:id/title}
+                            androidx.constraintlayout.widget.Guideline{5f8fe3 G.ED..... ......I. 72,0-72,0 #7f0a059e app:id/guideline}
+                            com.shopee.design.badgeview.BadgeView{3199de0 I.ED..... ......I. 72,0-74,24 #7f0a012d app:id/badge}
+                          android.widget.ImageView{b42a899 V.ED..... ........ 25,-12-119,82 #7f0a0c33 app:id/tab_animation_icon}
+                    android.view.View{a16975e G.ED..... ......I. 0,0-0,0 #7f0a0556 app:id/frame}
+                    android.widget.ImageView{e71473f G.ED..... ......I. 0,0-0,0 #7f0a0283 app:id/christmas_theme}
+                    android.view.View{3aab80c V.ED..... ......ID 0,1175-720,1186 #7f0a0b6e app:id/shadow_view}
+    Looper (main, tid 2) {48460ac}
+      Message 0: { when=+25m4s298ms callback=androidx.work.impl.background.greedy.DelayedWorkTracker$1 target=android.os.Handler }
+      Message 1: { when=+49m19s358ms callback=com.shopee.sz.endpoint.endpointservice.k$d target=android.os.Handler }
+      Message 2: { when=+1h59m20s784ms callback=androidx.work.impl.background.greedy.DelayedWorkTracker$1 target=android.os.Handler }
+      (Total messages: 3, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: android.app.ContextImpl@90c3555
+      client: com.shopee.app.ui.home.HomeActivity_@c5adbe6 (android.os.BinderProxy@a0a4ad1)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=0, compatMode=false, augmented=false
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    ResourcesManager:
+      cached apks: 0 [cache disabled]
+      total apks: 25
+      resources: 8
+      resource impls: 9

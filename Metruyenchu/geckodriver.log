@@ -1,0 +1,35 @@
+Invalid port. Exiting...
+Invalid port. Exiting...
+1660914662375	geckodriver	INFO	Listening on 127.0.0.1:60331
+1660914662451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "start-maximized" "--remote-debugging-port" "59133" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoZNNGI"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660914663152	Marionette	INFO	Marionette enabled
+1660914663155	Marionette	INFO	Listening on port 45945
+WebDriver BiDi listening on ws://localhost:59133
+Read port: 45945
+1660914663416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoZNNGI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59133/devtools/browser/8ac15522-5dae-4211-b11a-0a3b8f67db48
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1660914718539	geckodriver	INFO	Listening on 127.0.0.1:44131
+1660914718614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "start-maximized" "--remote-debugging-port" "44597" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezZk4Pi"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660914719275	Marionette	INFO	Marionette enabled
+1660914719279	Marionette	INFO	Listening on port 37623
+WebDriver BiDi listening on ws://localhost:44597
+Read port: 37623
+1660914719397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezZk4Pi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44597/devtools/browser/5acc471d-5e4e-4902-a79b-ec384057b735
+1660914737249	Marionette	INFO	Stopped listening on port 37623
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

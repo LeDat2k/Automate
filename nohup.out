@@ -1,0 +1,86 @@
+Traceback (most recent call last):
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f93d1830100>: Failed to establish a new connection: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/dat/.local/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='sheets.googleapis.com', port=443): Max retries exceeded with url: /v4/spreadsheets/1zA7TlchlQHoFkFKrLQgHuXRAR-Rwfq0He0ASi-N_S2M?includeGridData=false (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f93d1830100>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./automate.py", line 181, in <module>
+    schedule.run_pending()
+  File "/home/dat/.local/lib/python3.8/site-packages/schedule/__init__.py", line 780, in run_pending
+    default_scheduler.run_pending()
+  File "/home/dat/.local/lib/python3.8/site-packages/schedule/__init__.py", line 100, in run_pending
+    self._run_job(job)
+  File "/home/dat/.local/lib/python3.8/site-packages/schedule/__init__.py", line 172, in _run_job
+    ret = job.run()
+  File "/home/dat/.local/lib/python3.8/site-packages/schedule/__init__.py", line 661, in run
+    ret = self.job_func()
+  File "./automate.py", line 112, in open_monthlyBudget
+    wks = gspread.service_account().open("MonthlyBudget").worksheet("Transactions")
+  File "/home/dat/.local/lib/python3.8/site-packages/gspread/client.py", line 152, in open
+    return Spreadsheet(self, properties)
+  File "/home/dat/.local/lib/python3.8/site-packages/gspread/spreadsheet.py", line 33, in __init__
+    metadata = self.fetch_sheet_metadata()
+  File "/home/dat/.local/lib/python3.8/site-packages/gspread/spreadsheet.py", line 253, in fetch_sheet_metadata
+    r = self.client.request("get", url, params=params)
+  File "/home/dat/.local/lib/python3.8/site-packages/gspread/client.py", line 73, in request
+    response = getattr(self.session, method)(
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/dat/.local/lib/python3.8/site-packages/google/auth/transport/requests.py", line 490, in request
+    response = super(AuthorizedSession, self).request(
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='sheets.googleapis.com', port=443): Max retries exceeded with url: /v4/spreadsheets/1zA7TlchlQHoFkFKrLQgHuXRAR-Rwfq0He0ASi-N_S2M?includeGridData=false (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f93d1830100>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+Traceback (most recent call last):
+  File "./automate.py", line 169, in <module>
+    while True:
+  File "/home/dat/.local/lib/python3.8/site-packages/schedule/__init__.py", line 100, in run_pending
+    self._run_job(job)
+  File "/home/dat/.local/lib/python3.8/site-packages/schedule/__init__.py", line 172, in _run_job
+    ret = job.run()
+  File "/home/dat/.local/lib/python3.8/site-packages/schedule/__init__.py", line 661, in run
+    ret = self.job_func()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 115, in start
+    assert self._popen is None, 'cannot start a process twice'
+AssertionError: cannot start a process twice
+Traceback (most recent call last):
+  File "./automate.py", line 171, in <module>
+    scheduler1.run_pending()
+NameError: name 'scheduler1' is not defined
+<class 'selenium.common.exceptions.TimeoutException'>

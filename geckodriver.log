@@ -1,0 +1,1475 @@
+1660493216508	geckodriver	INFO	Listening on 127.0.0.1:58093
+1660493216983	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49499" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledbc1YS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660493218099	Marionette	INFO	Marionette enabled
+1660493218117	Marionette	INFO	Listening on port 43893
+WebDriver BiDi listening on ws://localhost:49499
+Read port: 43893
+1660493218407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledbc1YS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49499/devtools/browser/18525fa8-9db5-4bdc-89a6-bef5256a888d
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/require-trackingsdk.js, line 9: Error: Load timeout for modules: https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@28c0055.min.js,https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-algo@28c0055.min.js
+https://requirejs.org/docs/errors.html#timeout
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/8330.dc08122115b23a53.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1660493429590	Marionette	INFO	Stopped listening on port 43893
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660517752973	geckodriver	INFO	Listening on 127.0.0.1:48353
+1660517753542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58279" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileOWSA4A"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660517754225	Marionette	INFO	Marionette enabled
+1660517754229	Marionette	INFO	Listening on port 37743
+WebDriver BiDi listening on ws://localhost:58279
+Read port: 37743
+1660517754349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOWSA4A/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58279/devtools/browser/df020ac8-5451-472f-89ef-3f3b5fd1632f
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/8330.dc08122115b23a53.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 177764, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:177764): IBUS-WARNING **: 05:56:09.322: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+1660517771331	Marionette	INFO	Stopped listening on port 37743
+1660611184178	geckodriver	INFO	Listening on 127.0.0.1:36849
+1660611184749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1LkFn6"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660611185451	Marionette	INFO	Marionette enabled
+1660611185455	Marionette	INFO	Listening on port 40261
+WebDriver BiDi listening on ws://localhost:38549
+Read port: 40261
+1660611185704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1LkFn6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38549/devtools/browser/970f2f5e-17b1-4ef4-93ff-a238a520c549
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 408278, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:408278): IBUS-WARNING **: 07:53:15.477: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+1660611197488	Marionette	INFO	Stopped listening on port 40261
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660612004023	geckodriver	INFO	Listening on 127.0.0.1:57727
+1660612004149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI0aeHf"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660612005765	Marionette	INFO	Marionette enabled
+1660612005772	Marionette	INFO	Listening on port 39675
+WebDriver BiDi listening on ws://localhost:52995
+Read port: 39675
+1660612005985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI0aeHf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52995/devtools/browser/ccafdde8-6883-40f2-bf01-72f8de2fc7a9
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 416046, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:416046): IBUS-WARNING **: 08:07:00.851: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 416046, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:416046): IBUS-WARNING **: 08:07:01.402: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1660612032713	Marionette	INFO	Stopped listening on port 39675
+1660703552502	geckodriver	INFO	Listening on 127.0.0.1:37005
+1660703553180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuX2bKz"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660703555169	Marionette	INFO	Marionette enabled
+1660703555181	Marionette	INFO	Listening on port 42721
+WebDriver BiDi listening on ws://localhost:40131
+Read port: 42721
+1660703555464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuX2bKz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40131/devtools/browser/4a273e51-475e-435a-94e9-92491413af0d
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 620559, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:620559): IBUS-WARNING **: 09:32:50.247: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 620559, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:620559): IBUS-WARNING **: 09:32:50.636: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1660703578526	Marionette	INFO	Stopped listening on port 42721
+1660780882272	geckodriver	INFO	Listening on 127.0.0.1:41789
+1660780882822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49891" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDGbpfF"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660780883611	Marionette	INFO	Marionette enabled
+1660780883618	Marionette	INFO	Listening on port 46245
+WebDriver BiDi listening on ws://localhost:49891
+Read port: 46245
+1660780883803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDGbpfF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49891/devtools/browser/f26a9d1d-8ccf-4913-b0f8-65661ba95c11
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 751440, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:751440): IBUS-WARNING **: 07:01:35.818: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1660780904353	Marionette	INFO	Stopped listening on port 46245
+1660868944898	geckodriver	INFO	Listening on 127.0.0.1:37603
+1660868945524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVB4UvA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660868946407	Marionette	INFO	Marionette enabled
+1660868946414	Marionette	INFO	Listening on port 40147
+WebDriver BiDi listening on ws://localhost:56097
+Read port: 40147
+1660868946610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVB4UvA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56097/devtools/browser/353fc501-12a6-4f8e-a4bb-0635383051a2
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 938698, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:938698): IBUS-WARNING **: 07:29:19.136: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 938698, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:938698): IBUS-WARNING **: 07:29:19.834: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1660868968043	Marionette	INFO	Stopped listening on port 40147
+1660956772126	geckodriver	INFO	Listening on 127.0.0.1:38917
+1660956772674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4vji17"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660956773470	Marionette	INFO	Marionette enabled
+1660956773493	Marionette	INFO	Listening on port 42281
+WebDriver BiDi listening on ws://localhost:39119
+Read port: 42281
+1660956773698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4vji17/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39119/devtools/browser/b38748ed-0a16-4352-844b-37a7b1a5155a
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1178128, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1178128): IBUS-WARNING **: 07:53:09.433: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1660956797108	Marionette	INFO	Stopped listening on port 42281
+1660959288473	geckodriver	INFO	Listening on 127.0.0.1:43631
+1660959289118	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqClmVK"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660959291232	Marionette	INFO	Marionette enabled
+1660959291237	Marionette	INFO	Listening on port 39035
+WebDriver BiDi listening on ws://localhost:41587
+Read port: 39035
+1660959291358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqClmVK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41587/devtools/browser/3ff05c03-27c5-4e8a-8459-61e9660c567b
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 1196859, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1196859): IBUS-WARNING **: 08:35:04.302: firefox has no capability of surrounding-text feature
+1660959304320	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1196859, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1196859): IBUS-WARNING **: 08:35:04.802: firefox has no capability of surrounding-text feature
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1660959313073	Marionette	INFO	Stopped listening on port 39035
+1661041490992	geckodriver	INFO	Listening on 127.0.0.1:45895
+1661041491548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileYIAjei"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661041492298	Marionette	INFO	Marionette enabled
+1661041492329	Marionette	INFO	Listening on port 38705
+WebDriver BiDi listening on ws://localhost:57919
+Read port: 38705
+1661041492482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYIAjei/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57919/devtools/browser/17ed8d7b-6a90-43fc-a334-4637f6854cd3
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1457743, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1457743): IBUS-WARNING **: 07:25:15.071: firefox has no capability of surrounding-text feature
+[Parent 1457743, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1457743): IBUS-WARNING **: 07:25:15.532: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661041522567	Marionette	INFO	Stopped listening on port 38705
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661163624153	geckodriver	INFO	Listening on 127.0.0.1:50491
+1661163624885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileB35wuu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661163627483	Marionette	INFO	Marionette enabled
+1661163627493	Marionette	INFO	Listening on port 45885
+WebDriver BiDi listening on ws://localhost:51965
+Read port: 45885
+1661163628009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileB35wuu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51965/devtools/browser/418ddec7-81f8-4934-8c68-186dbea85b43
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1597825, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1597825): IBUS-WARNING **: 17:20:46.322: firefox has no capability of surrounding-text feature
+[Parent 1597825, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1597825): IBUS-WARNING **: 17:20:47.043: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661163655715	Marionette	INFO	Stopped listening on port 45885
+1661207300735	geckodriver	INFO	Listening on 127.0.0.1:55535
+1661207301307	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelI1Pzb"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661207302761	Marionette	INFO	Marionette enabled
+1661207302769	Marionette	INFO	Listening on port 36451
+WebDriver BiDi listening on ws://localhost:51919
+Read port: 36451
+1661207302930	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelI1Pzb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51919/devtools/browser/a0e3e18d-3bb9-4f76-a5f9-db401eae7032
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1627110, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1627110): IBUS-WARNING **: 05:28:45.006: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1627110, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1627110): IBUS-WARNING **: 05:28:45.556: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661207334392	Marionette	INFO	Stopped listening on port 36451
+1661210399479	geckodriver	INFO	Listening on 127.0.0.1:54617
+1661210400105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6tKK81"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661210402261	Marionette	INFO	Marionette enabled
+1661210402280	Marionette	INFO	Listening on port 37989
+WebDriver BiDi listening on ws://localhost:49697
+Read port: 37989
+1661210403106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6tKK81/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49697/devtools/browser/9136e927-3464-4730-9612-9064942b906e
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1651324, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1651324): IBUS-WARNING **: 06:20:22.573: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1651324, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1651324): IBUS-WARNING **: 06:20:23.257: firefox has no capability of surrounding-text feature
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661210431180	Marionette	INFO	Stopped listening on port 37989
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661217979524	geckodriver	INFO	Listening on 127.0.0.1:38379
+1661217979598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiTsUam"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661217980665	Marionette	INFO	Marionette enabled
+1661217980669	Marionette	INFO	Listening on port 44055
+WebDriver BiDi listening on ws://localhost:41975
+Read port: 44055
+1661217980809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiTsUam/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41975/devtools/browser/67db17a7-f455-4e82-ba44-0ace2e900798
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1683770, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1683770): IBUS-WARNING **: 08:26:27.467: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1683770, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1683770): IBUS-WARNING **: 08:26:27.761: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661217995219	Marionette	INFO	Stopped listening on port 44055
+1661218014001	geckodriver	INFO	Listening on 127.0.0.1:42133
+1661218014617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4zLty2"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661218015590	Marionette	INFO	Marionette enabled
+1661218015601	Marionette	INFO	Listening on port 35747
+WebDriver BiDi listening on ws://localhost:47445
+Read port: 35747
+1661218015720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4zLty2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47445/devtools/browser/00c79b6a-d1e2-43d7-bd29-66bea5b67a1a
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1684538, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1684538): IBUS-WARNING **: 08:27:03.335: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1684538, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1684538): IBUS-WARNING **: 08:27:03.632: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661218030507	Marionette	INFO	Stopped listening on port 35747
+1661218053609	geckodriver	INFO	Listening on 127.0.0.1:49029
+1661218054190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFrmgJ4"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661218055278	Marionette	INFO	Marionette enabled
+1661218055282	Marionette	INFO	Listening on port 35919
+WebDriver BiDi listening on ws://localhost:44237
+Read port: 35919
+1661218055381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFrmgJ4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44237/devtools/browser/ded261bf-7583-4e32-94b5-20ddf3e1fb62
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 58: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1685356, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1685356): IBUS-WARNING **: 08:27:42.475: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1685356, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1685356): IBUS-WARNING **: 08:27:42.812: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661218070077	Marionette	INFO	Stopped listening on port 35919
+1661296698932	geckodriver	INFO	Listening on 127.0.0.1:47931
+1661296699195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGJ7kzA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661296705849	Marionette	INFO	Marionette enabled
+1661296705864	Marionette	INFO	Listening on port 36857
+Read port: 36857
+WebDriver BiDi listening on ws://localhost:45293
+1661296706430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 421))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGJ7kzA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45293/devtools/browser/2b008288-0c0d-483d-b8d0-ec5e8aa288fe
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1930009, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1930009): IBUS-WARNING **: 06:18:43.518: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1930009, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1930009): IBUS-WARNING **: 06:18:44.175: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.51dc4295ec71764924bb.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661296734817	Marionette	INFO	Stopped listening on port 36857
+1661382226496	geckodriver	INFO	Listening on 127.0.0.1:35103
+1661382227062	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFj2ApQ"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661382227702	Marionette	INFO	Marionette enabled
+1661382227706	Marionette	INFO	Listening on port 41695
+WebDriver BiDi listening on ws://localhost:34771
+Read port: 41695
+1661382227839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFj2ApQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34771/devtools/browser/ba4daa85-a536-4399-aa85-8f80187bd98a
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 2077003, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2077003): IBUS-WARNING **: 06:03:53.654: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 2077003, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2077003): IBUS-WARNING **: 06:03:54.013: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661382241015	Marionette	INFO	Stopped listening on port 41695
+1661470029748	geckodriver	INFO	Listening on 127.0.0.1:37235
+1661470029818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39267" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVJINlr"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661470030494	Marionette	INFO	Marionette enabled
+1661470030499	Marionette	INFO	Listening on port 41053
+WebDriver BiDi listening on ws://localhost:39267
+Read port: 41053
+1661470030619	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVJINlr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39267/devtools/browser/9cf46ddd-6fa1-4c44-bb0d-9761c9af6689
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 2324202, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2324202): IBUS-WARNING **: 06:27:17.518: firefox has no capability of surrounding-text feature
+[Parent 2324202, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2324202): IBUS-WARNING **: 06:27:17.712: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/webpack-runtime.2115a833fcaad7c4.js, line 1: ChunkLoadError: Loading chunk 5818 failed.
+(error: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/5818.489c3c5c21a7f8bb.js)
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661470045672	Marionette	INFO	Stopped listening on port 41053
+1661528642232	geckodriver	INFO	Listening on 127.0.0.1:56411
+1661528642763	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40575" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3Y5wUt"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661528648047	Marionette	INFO	Marionette enabled
+1661528648070	Marionette	INFO	Listening on port 34317
+WebDriver BiDi listening on ws://localhost:40575
+Read port: 34317
+1661528648941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Shutting down due to socket process crash.
+1661528650053	Marionette	INFO	Stopped listening on port 34317
+1661528650061	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 421))
+Exiting due to channel error.
+1661561517795	geckodriver	INFO	Listening on 127.0.0.1:39523
+1661561518348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37339" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexuG8gG"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661561519089	Marionette	INFO	Marionette enabled
+1661561519094	Marionette	INFO	Listening on port 36461
+WebDriver BiDi listening on ws://localhost:37339
+Read port: 36461
+1661561519235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexuG8gG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37339/devtools/browser/70337828-7944-4339-8c1d-129992a6154d
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/require-trackingsdk.js, line 9: Error: Script error for "https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-algo@28c0055.min.js"
+https://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/require-trackingsdk.js, line 9: Error: Script error for "https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@28c0055.min.js"
+https://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 159538, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:159538): IBUS-WARNING **: 07:52:06.395: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661561533159	Marionette	INFO	Stopped listening on port 36461
+1661643734690	geckodriver	INFO	Listening on 127.0.0.1:38131
+1661643735444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0rfsxq"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661643736612	Marionette	INFO	Marionette enabled
+1661643736617	Marionette	INFO	Listening on port 36465
+WebDriver BiDi listening on ws://localhost:46231
+Read port: 36465
+1661643736880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0rfsxq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46231/devtools/browser/f4252b0d-c86a-4883-aec8-21e2e28e16cc
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 276082, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:276082): IBUS-WARNING **: 06:42:23.099: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 276082, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:276082): IBUS-WARNING **: 06:42:23.563: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661643750801	Marionette	INFO	Stopped listening on port 36465
+1661922654192	geckodriver	INFO	Listening on 127.0.0.1:56429
+1661922654788	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57343" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileH10j2v"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661922655458	Marionette	INFO	Marionette enabled
+1661922655462	Marionette	INFO	Listening on port 36245
+WebDriver BiDi listening on ws://localhost:57343
+Read port: 36245
+1661922655568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileH10j2v/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57343/devtools/browser/7929c8e7-30ef-4427-8f1f-02e1e6bf4cfc
+1661922661016	Marionette	INFO	Stopped listening on port 36245
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661922661287	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+[2022-08-31T05:11:01Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1661922750667	geckodriver	INFO	Listening on 127.0.0.1:53983
+1661922751227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54811" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDfguva"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661922752077	Marionette	INFO	Marionette enabled
+1661922752083	Marionette	INFO	Listening on port 46147
+WebDriver BiDi listening on ws://localhost:54811
+Read port: 46147
+1661922752190	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDfguva/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54811/devtools/browser/c027ddb2-4e56-489e-95bc-1e42dcd8c221
+1661922757172	Marionette	INFO	Stopped listening on port 46147
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661922899931	geckodriver	INFO	Listening on 127.0.0.1:48945
+1661922900505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSj3Rjs"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661922901136	Marionette	INFO	Marionette enabled
+1661922901139	Marionette	INFO	Listening on port 35139
+WebDriver BiDi listening on ws://localhost:40611
+Read port: 35139
+1661922901243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSj3Rjs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40611/devtools/browser/2eecdebe-cfe7-4e33-802e-abd8d0b2e618
+1661922903881	Marionette	INFO	Stopped listening on port 35139
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 69: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661923022062	geckodriver	INFO	Listening on 127.0.0.1:56035
+1661923022624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEUYsAa"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661923024130	Marionette	INFO	Marionette enabled
+1661923024154	Marionette	INFO	Listening on port 36275
+WebDriver BiDi listening on ws://localhost:35319
+Read port: 36275
+1661923024326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEUYsAa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:35319/devtools/browser/558454cb-6983-4c86-a52a-829a4cb2b67c
+1661923032234	Marionette	INFO	Stopped listening on port 36275
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661923081221	geckodriver	INFO	Listening on 127.0.0.1:35935
+1661923081849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePbTB8G"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661923083781	Marionette	INFO	Marionette enabled
+1661923083801	Marionette	INFO	Listening on port 32883
+WebDriver BiDi listening on ws://localhost:55939
+Read port: 32883
+1661923084098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePbTB8G/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55939/devtools/browser/f0eb2824-bc3b-4220-9db6-a82920259c38
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661923093603	Marionette	INFO	Stopped listening on port 32883
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1661923141152	geckodriver	INFO	Listening on 127.0.0.1:47933
+1661923141211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV9sDQO"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661923142944	Marionette	INFO	Marionette enabled
+1661923142954	Marionette	INFO	Listening on port 42879
+WebDriver BiDi listening on ws://localhost:34805
+Read port: 42879
+1661923143357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV9sDQO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:34805/devtools/browser/ef52319a-1321-419f-88ff-e9decad50078
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource:///actors/WebRTCChild.jsm, line 459: TypeError: aContentWindow.pendingPeerConnectionRequests is undefined
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1009174, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1009174): IBUS-WARNING **: 12:19:16.923: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1009174, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1009174): IBUS-WARNING **: 12:19:17.619: firefox has no capability of surrounding-text feature
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1661923164905	Marionette	INFO	Stopped listening on port 42879
+1661923619675	geckodriver	INFO	Listening on 127.0.0.1:36579
+1661923620243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilembShRh"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661923621513	Marionette	INFO	Marionette enabled
+1661923621522	Marionette	INFO	Listening on port 33335
+WebDriver BiDi listening on ws://localhost:32937
+Read port: 33335
+1661923621864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilembShRh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32937/devtools/browser/11f5a0bc-0e0f-4239-aeca-37aa05c29aa8
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1012917, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1012917): IBUS-WARNING **: 12:27:42.141: firefox has no capability of surrounding-text feature
+[Parent 1012917, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1012917): IBUS-WARNING **: 12:27:42.469: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661923670788	Marionette	INFO	Stopped listening on port 33335
+1661923792455	geckodriver	INFO	Listening on 127.0.0.1:33477
+1661923792599	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36647" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehipjFk"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661923794534	Marionette	INFO	Marionette enabled
+1661923794553	Marionette	INFO	Listening on port 42217
+WebDriver BiDi listening on ws://localhost:36647
+Read port: 42217
+1661923794792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehipjFk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:36647/devtools/browser/3da365c3-be0f-410e-ad9a-b14615d7e8be
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1014888, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1014888): IBUS-WARNING **: 12:30:14.441: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1014888, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1014888): IBUS-WARNING **: 12:30:15.036: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661923821688	Marionette	INFO	Stopped listening on port 42217
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661991976284	geckodriver	INFO	Listening on 127.0.0.1:52407
+1661991976921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6qpfOh"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1661991979804	Marionette	INFO	Marionette enabled
+1661991979815	Marionette	INFO	Listening on port 46251
+WebDriver BiDi listening on ws://localhost:49103
+Read port: 46251
+Read port: 46251
+1661991981682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6qpfOh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49103/devtools/browser/84115d76-1145-4f18-97c2-c3ad258086d4
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1152156, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1152156): IBUS-WARNING **: 07:26:33.884: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1152156, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1152156): IBUS-WARNING **: 07:26:34.693: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/7c5aa9417356a5b395aa8633026331d49ab5a001.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1661992005093	Marionette	INFO	Stopped listening on port 46251
+1662392549533	geckodriver	INFO	Listening on 127.0.0.1:43431
+1662392549645	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41693" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiFBNCx"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662392551874	Marionette	INFO	Marionette enabled
+1662392551895	Marionette	INFO	Listening on port 44135
+WebDriver BiDi listening on ws://localhost:41693
+Read port: 44135
+1662392552447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiFBNCx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41693/devtools/browser/3e9c57b4-b5e2-4ab5-9c63-b35f843adea1
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/8330.dc08122115b23a53.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1756003, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1756003): IBUS-WARNING **: 22:43:03.013: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1756003, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1756003): IBUS-WARNING **: 22:43:03.366: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662392590641	Marionette	INFO	Stopped listening on port 44135
+1662434965385	geckodriver	INFO	Listening on 127.0.0.1:51735
+1662434965622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHNoBfu"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662434967540	Marionette	INFO	Marionette enabled
+1662434967550	Marionette	INFO	Listening on port 45529
+WebDriver BiDi listening on ws://localhost:54395
+Read port: 45529
+1662434967798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHNoBfu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54395/devtools/browser/5811396e-6045-47b9-bb85-138dd323f060
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/8330.dc08122115b23a53.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1783139, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1783139): IBUS-WARNING **: 10:29:55.486: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 1783139, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1783139): IBUS-WARNING **: 10:29:56.367: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662435004112	Marionette	INFO	Stopped listening on port 45529
+1662546916365	geckodriver	INFO	Listening on 127.0.0.1:51699
+1662546916917	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43233" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiIf0Hm"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662546918023	Marionette	INFO	Marionette enabled
+1662546918027	Marionette	INFO	Listening on port 42651
+WebDriver BiDi listening on ws://localhost:43233
+Read port: 42651
+1662546918286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiIf0Hm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43233/devtools/browser/716442a9-7538-459a-b92b-9bd452902588
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/8330.dc08122115b23a53.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: https://gum.criteo.com/syncframe?topUrl=shopee.vn&origin=onetag#{%22bundle%22:{%22origin%22:0,%22value%22:null},%22cw%22:true,%22optout%22:{%22origin%22:0,%22value%22:null},%22origin%22:%22onetag%22,%22pm%22:0,%22sid%22:{%22origin%22:0,%22value%22:null},%22tld%22:%22shopee.vn%22,%22topUrl%22:%22shopee.vn%22,%22version%22:%225_12_0%22,%22ifa%22:{%22origin%22:0,%22value%22:null},%22lsw%22:true}, line 13: ReferenceError: False is not defined
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 1884221, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1884221): IBUS-WARNING **: 17:36:00.714: firefox has no capability of surrounding-text feature
+[Parent 1884221, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:1884221): IBUS-WARNING **: 17:36:00.878: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662546968447	Marionette	INFO	Stopped listening on port 42651
+1662601714533	geckodriver	INFO	Listening on 127.0.0.1:53929
+1662601714604	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41951" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVh8tET"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662601716438	Marionette	INFO	Marionette enabled
+1662601716445	Marionette	INFO	Listening on port 43015
+WebDriver BiDi listening on ws://localhost:41951
+Read port: 43015
+1662601716652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVh8tET/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41951/devtools/browser/69be3e2a-a022-426a-b62c-47257e2c6394
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1662602281032	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1662602978654	Marionette	INFO	Stopped listening on port 43015
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1662689068636	geckodriver	INFO	Listening on 127.0.0.1:55673
+1662689069192	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52555" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9xsVEm"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662689070157	Marionette	INFO	Marionette enabled
+1662689070161	Marionette	INFO	Listening on port 46423
+WebDriver BiDi listening on ws://localhost:52555
+Read port: 46423
+1662689070291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9xsVEm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52555/devtools/browser/f435068e-e970-4f6a-8bc6-1a0fde2e9a30
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/require-trackingsdk.js, line 9: Error: Script error for "https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-ubt@28c0055.min.js"
+https://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/require-trackingsdk.js, line 9: Error: Script error for "https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/amd/@shopee/tracking-algo@28c0055.min.js"
+https://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/default/live/index.min.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 2100920, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2100920): IBUS-WARNING **: 09:04:38.488: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 2100920, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2100920): IBUS-WARNING **: 09:04:38.855: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662689087059	Marionette	INFO	Stopped listening on port 46423
+1662768471716	geckodriver	INFO	Listening on 127.0.0.1:58817
+1662768471851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "32791" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePvbqKE"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662768473656	Marionette	INFO	Marionette enabled
+1662768473661	Marionette	INFO	Listening on port 45835
+Read port: 45835
+WebDriver BiDi listening on ws://localhost:32791
+1662768474772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePvbqKE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:32791/devtools/browser/8f2cdd30-8c4d-477a-99fa-3b329bf142c4
+[Parent 2208368, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2208368): IBUS-WARNING **: 07:08:00.626: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+1662768480986	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+[Parent 2208368, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2208368): IBUS-WARNING **: 07:08:01.452: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+1662768489470	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662768491683	Marionette	INFO	Stopped listening on port 45835
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662859965345	geckodriver	INFO	Listening on 127.0.0.1:39427
+1662859965402	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIcqj2P"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1662859966326	Marionette	INFO	Marionette enabled
+1662859966332	Marionette	INFO	Listening on port 45083
+WebDriver BiDi listening on ws://localhost:55479
+Read port: 45083
+1662859966496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIcqj2P/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55479/devtools/browser/9f108f6d-071a-49e6-87c3-75b3077134a9
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+[Parent 2391868, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2391868): IBUS-WARNING **: 08:32:55.347: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+[Parent 2391868, Main Thread] WARNING: firefox has no capability of surrounding-text feature: 'glib warning', file /builds/worker/checkouts/gecko/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:2391868): IBUS-WARNING **: 08:32:55.710: firefox has no capability of surrounding-text feature
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662859983728	Marionette	INFO	Stopped listening on port 45083
+1662903376500	geckodriver	INFO	Listening on 127.0.0.1:60795
+1662903377154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileuoLgjz"
+*** You are running in headless mode.
+1662903377743	Marionette	INFO	Marionette enabled
+1662903377751	Marionette	INFO	Listening on port 45617
+Read port: 45617
+WebDriver BiDi listening on ws://localhost:33291
+1662903377910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuoLgjz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33291/devtools/browser/3eb7f70a-7e59-45bc-9ebd-c8656c55a597
+libEGL warning: DRI2: failed to create dri screen
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662903398429	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:237:24
+TimedPromise@chrome://remote/content/marionette/sync.js:222:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+Shutting down due to socket process crash.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 1627: Error: permitUnload is already running for this tab.
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2132: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2132: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2132: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2132: TypeError: subject.QueryInterface is not a function
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 2132: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1662903491662	Marionette	INFO	Stopped listening on port 45617
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 841: TypeError: this.ownerGlobal is null
+!!! error running onStopped callback: TypeError: callback is not a function
+1662903810782	geckodriver	INFO	Listening on 127.0.0.1:58445
+1662903811396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44711" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6CYgln"
+*** You are running in headless mode.
+1662903811795	Marionette	INFO	Marionette enabled
+1662903811800	Marionette	INFO	Listening on port 39223
+WebDriver BiDi listening on ws://localhost:44711
+Read port: 39223
+1662903812094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6CYgln/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44711/devtools/browser/22e2ad06-1a77-48b8-945e-4f6d9f381bb6
+libEGL warning: DRI2: failed to create dri screen
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+libEGL warning: DRI2: failed to create dri screen
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662903910276	Marionette	INFO	Stopped listening on port 39223
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1662904400288	geckodriver	INFO	Listening on 127.0.0.1:35805
+1662904400915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33005" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileta3Bv2"
+*** You are running in headless mode.
+1662904401297	Marionette	INFO	Marionette enabled
+1662904401302	Marionette	INFO	Listening on port 43371
+WebDriver BiDi listening on ws://localhost:33005
+Read port: 43371
+1662904401402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileta3Bv2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33005/devtools/browser/78315bbd-0216-45dc-b3e1-a90f7ca84fc2
+libEGL warning: DRI2: failed to create dri screen
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg//assets/6645.d661b7b6b205f056.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+libEGL warning: DRI2: failed to create dri screen
+JavaScript warning: https://deo.shopeemobile.com/shopee/web-sdk/js/live/c2e428f12042bcff8cb738b0dce50f694da6a74c.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://deo.shopeemobile.com/shopee/shopee-seller-live-vn/chateasy/vendors.0f485567.1c4b5cccd6de4a6e0a7d.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: linkProgram: Must have a compiled fragment shader attached: Missing shader.
+JavaScript warning: , line 0: WebGL warning: uniform setter: No active linked Program.
+JavaScript warning: , line 0: WebGL warning: drawArraysInstanced: The current program is not linked.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 111: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1662904421165	Marionette	INFO	Stopped listening on port 43371

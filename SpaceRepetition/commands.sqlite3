@@ -1,0 +1,4 @@
+.open repetition.db
+.output backup.sql
+.dump
+.quit
