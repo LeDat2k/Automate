@@ -142,6 +142,11 @@ def open_monthly_budget():
 
 schedule.every().day.at("21:00").do(open_monthly_budget)
 
+def review_vocabulary():
+    os.system("anki")
+
+schedule.every().day.at("05:10").do(review_vocabulary)
+
 
 # class MyWindow(QMainWindow):
 #   def __init__(self):
