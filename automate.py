@@ -10,9 +10,12 @@ import random
 import gspread
 from multiprocessing import Process
 import sys
+import subprocess
 # sys.path.append("/media/dat/DISK/Dev/Automation/Shopee")
 # import shopee
 from Shopee import shopee
+import news
+# import os_theme 
 
 
 def wait_internet():
@@ -89,7 +92,6 @@ def open_invest():
     urls = [
         # 'https://fireant.vn/dashboard',
         'https://vietstock.vn/chung-khoan/co-phieu.htm',
-        # 'https://dynalist.io/d/dQshRzOg9BbUfzTAc0lnjh64',
         'https://www.tradingview.com/symbols/HOSE-VNINDEX/'
     ]
     for url in urls:
@@ -111,12 +113,12 @@ def open_toilet_note():
     time.sleep(1)
     pyautogui.hotkey('ctrl', 'shift', 'tab')
 
-    today = datetime.datetime.now().strftime('%d/%m/%Y')
-    wks = gspread.service_account().open("PersonalData").worksheet("Toilet")
+    # today = datetime.datetime.now().strftime('%d/%m/%Y')
+    # wks = gspread.service_account().open("PersonalData").worksheet("Toilet")
 
-    # find last rows and the 1st column
-    max_row = len(wks.get_all_values())
-    wks.update_cell(max_row + 1, 1, today)
+    # # find last rows and the 1st column
+    # max_row = len(wks.get_all_values())
+    # wks.update_cell(max_row + 1, 1, today)
 
 
 schedule.every().day.at("21:00").do(open_toilet_note)
@@ -143,9 +145,15 @@ def open_monthly_budget():
 schedule.every().day.at("21:00").do(open_monthly_budget)
 
 def review_vocabulary():
-    os.system("anki")
+    # os.system("anki")
+    commmand = 'anki'
+    subprocess.Popen(commmand.split())
+    
 
 schedule.every().day.at("05:10").do(review_vocabulary)
+
+
+schedule.every().day.at("18:30").do(news.open_news)
 
 
 # class MyWindow(QMainWindow):
@@ -191,6 +199,8 @@ schedule.every(4 * 60 + 30).minutes.do(window_stormgain)
 # ---------------------------------------------------
 light_time = "06:30"
 dark_time = "18:00"
+# schedule.every().day.at(light_time).do(os_theme.change, mode='light')
+# schedule.every().day.at(dark_time).do(os_theme.change, mode='dark')
 schedule.every().day.at(light_time).do(change_theme, theme_mode='light')
 schedule.every().day.at(dark_time).do(change_theme, theme_mode='dark')
 

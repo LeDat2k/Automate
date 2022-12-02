@@ -70,11 +70,11 @@ def claim_coin():
 
         wait.until(
             EC.element_to_be_clickable(
-                (By.XPATH, '/html/body/div[1]/div/div[2]/div/div/form/div/div[2]/div[2]/div[1]/input'))
+                (By.XPATH, '/html/body/div[1]/div/div[2]/div/div/div/div[2]/form/div/div[2]/div[2]/div[1]/input'))
         ).send_keys('dat25600')
 
         password = driver.find_element(By.XPATH,
-                                       '/html/body/div[1]/div/div[2]/div/div/form/div/div[2]/div[3]/div[1]/input')
+                                       '/html/body/div[1]/div/div[2]/div/div/div/div[2]/form/div/div[2]/div[3]/div[1]/input')
         password.send_keys("LinD2018")
         password.send_keys(Keys.ENTER)
 

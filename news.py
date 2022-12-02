@@ -8,6 +8,7 @@ from datetime import date
 import pyautogui
 
 
+
 def open_news():
     webbrowser.open("https://www.youtube.com/c/vtv24/videos")
 
@@ -22,14 +23,14 @@ def open_news():
 
     os.system(f"subl {file_path}")
 
-    time.sleep(0.5)
-    pyautogui.hotkey('win', 'right')
+    # time.sleep(0.5)
+    # pyautogui.hotkey('win', 'right')
 
 
-schedule.every().day.at("18:30").do(open_news)
+# schedule.every().day.at("18:30").do(open_news)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# while True:
+    # schedule.run_pending()
+    # time.sleep(1)
 
 # open_news()

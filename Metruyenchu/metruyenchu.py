@@ -43,8 +43,7 @@ def show_list(choices):
     open_web(choice)
 
 def open_web(novel):
-    site = 'https://metruyenchu.com/truyen/'
-    search_url = site + novel.replace(' ', '-') 
+    site = 'https://metruyenchu.com/truyen/' + novel.replace(' ', '-')
 
     options = Options()
     options.add_argument("start-maximized")
@@ -54,8 +53,7 @@ def open_web(novel):
     # driver_service = Service(executable_path="/media/dat/DISK/Dev/Automation/BrowserDrivers/geckodriver")
     # driver = webdriver.Firefox(service=driver_service, options=options)
 
-    driver.get(search_url)
-    time.sleep(30)
+    driver.get(site)
     driver.find_element(By.XPATH, '//*[@id="nav-tab-chap"]').click()
 
     wait = WebDriverWait(driver, 30)
