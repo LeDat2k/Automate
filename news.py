@@ -8,8 +8,7 @@ from datetime import date
 import pyautogui
 
 
-
-def open_news():
+def update():
     webbrowser.open("https://www.youtube.com/c/vtv24/videos")
 
     # write date

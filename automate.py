@@ -6,16 +6,15 @@ import pyautogui
 import requests
 import schedule
 import time
-import random
 import gspread
 from multiprocessing import Process
 import sys
 import subprocess
 # sys.path.append("/media/dat/DISK/Dev/Automation/Shopee")
 # import shopee
-from Shopee import shopee
+# from Shopee import shopee
 import news
-# import os_theme 
+import os_theme
 
 
 def wait_internet():
@@ -29,63 +28,17 @@ def wait_internet():
             time.sleep(1)
 
 
-def check_change_theme(light_time: str, dark_time: str):
-    light = light_time.split(':')
-    dark = dark_time.split(':')
-
-    light = datetime.time(int(light[0]), int(light[1]))
-    dark = datetime.time(int(dark[0]), int(dark[1]))
-
-    if datetime.datetime.now().time() >= dark:
-        change_theme('dark')
-    else:
-        change_theme('light')
-
-
-# sunrise(Mint-Y) vs sunset(Mint-Y-Dark):
-def change_theme(theme_mode):
-    if theme_mode == 'light':
-        theme_mode = ''
-    else:
-        theme_mode = 'Dark-'
-
-    theme_colors = ["Aqua", "Blue", "Brown", "Grey", "Orange", "Pink", "Purple", "Red", "Sand", "Teal"]
-    theme_name = "Mint-Y-" + theme_mode + random.choice(theme_colors)
-    # Mint-Y-Aqua
-    commands = [
-        f'gsettings set org.cinnamon.desktop.interface gtk-theme {theme_name}',
-        f'gsettings set org.cinnamon.theme name {theme_name}'
-    ]
-    for command in commands:
-        os.system(command)
-
-
-def open_shopee_coin():
+def claim_shopee_coin():
     wait_internet()
 
-    shopee.claim_coin()
+    # shopee.claim_coin()
+    webbrowser.open("https://shopee.vn/shopee-coins/")
 
 
-# scheduler1 = schedule.Scheduler()
-# p1 = Process(target=open_shopee_coin)
-# scheduler1.every().day.at("05:00").do(p1.start)
-schedule.every().day.at("05:00").do(open_shopee_coin)
-
-
-def open_gmail():
+def check_mail():
     webbrowser.open('https://mail.google.com/mail/u/0/#inbox')
     time.sleep(1)
     pyautogui.hotkey('ctrl', 'shift', 'tab')
-
-
-schedule.every().day.at("12:30").do(open_gmail)
-
-
-def notify_remitano():
-    os.system('notify-send "Remitano" "Open Remitano app on your phone!"')
-
-
-schedule.every(24 * 60 + 10).minutes.do(notify_remitano)
 
 
 def open_invest():
@@ -101,10 +54,7 @@ def open_invest():
     pyautogui.hotkey('ctrl', 'shift', 'tab')
 
 
-schedule.every().day.at("05:00").do(open_invest)
-
-
-def open_toilet_note():
+def track_habit():
     wait_internet()
 
     webbrowser.open(
@@ -113,18 +63,8 @@ def open_toilet_note():
     time.sleep(1)
     pyautogui.hotkey('ctrl', 'shift', 'tab')
 
-    # today = datetime.datetime.now().strftime('%d/%m/%Y')
-    # wks = gspread.service_account().open("PersonalData").worksheet("Toilet")
 
-    # # find last rows and the 1st column
-    # max_row = len(wks.get_all_values())
-    # wks.update_cell(max_row + 1, 1, today)
-
-
-schedule.every().day.at("21:00").do(open_toilet_note)
-
-
-def open_monthly_budget():
+def report_budget():
     wait_internet()
 
     webbrowser.open(
@@ -142,79 +82,50 @@ def open_monthly_budget():
     wks.update_cell(max_row + 1, 4, "Everyday-Food")
 
 
-schedule.every().day.at("21:00").do(open_monthly_budget)
-
 def review_vocabulary():
-    # os.system("anki")
     commmand = 'anki'
     subprocess.Popen(commmand.split())
-    
-
-schedule.every().day.at("05:10").do(review_vocabulary)
 
 
-schedule.every().day.at("18:30").do(news.open_news)
-
-
-# class MyWindow(QMainWindow):
-#   def __init__(self):
-#     super(MyWindow, self).__init__()
-#     self.setGeometry(1919, 0, 400, 150)
-#     self.setWindowTitle("Notification")
-#     self.initUI()
-
-#   def initUI(self):
-#     self.label = QtWidgets.QLabel(self)
-#     self.label.setText("Time to mine!")
-
-#     # button
-#     self.b1 = QtWidgets.QPushButton(self)
-#     self.b1.setText("OK")
-#     self.b1.move(100, 100)
-#     self.b1.clicked.connect(self.stormgain)
-
-#   def stormgain(self):
-#     webbrowser.open('https://app.stormgain.com/crypto-miner/')
-#     self.close()
-
-# def window_stormgain():
-#   app = QApplication(sys.argv)
-#   win = MyWindow()
-
-#   win.show()
-#   # sys.exit(app.exec_())
-#   app.exec_()
-# ------------------------------------------
-
-def window_stormgain():
+def claim_stormgain():
     wait_internet()
     # check_stormgain_time()
     webbrowser.open('https://app.stormgain.com/crypto-miner/')
     time.sleep(1)
     pyautogui.hotkey('ctrl', 'shift', 'tab')
 
+def grateful():
+    commands = [
+        'subl /media/dat/DISK/Note/Personal/Mistake.md',
+        'subl /media/dat/DISK/Note/Personal/Grateful.md'
+    ]
 
-schedule.every(4 * 60 + 30).minutes.do(window_stormgain)
+    for command in commands:
+        os.system(command)
+
+
+schedule.every().day.at("05:00").do(grateful)
+schedule.every().day.at("05:00").do(claim_shopee_coin)
+schedule.every().day.at("05:00").do(open_invest)
+schedule.every().day.at("05:10").do(review_vocabulary)
+schedule.every().day.at("12:30").do(check_mail)
+schedule.every().day.at("18:30").do(news.update)
+schedule.every().day.at("21:00").do(track_habit)
+schedule.every().day.at("21:00").do(report_budget)
+schedule.every(4 * 60 + 30).minutes.do(claim_stormgain)
 
 # ---------------------------------------------------
-light_time = "06:30"
-dark_time = "18:00"
-# schedule.every().day.at(light_time).do(os_theme.change, mode='light')
-# schedule.every().day.at(dark_time).do(os_theme.change, mode='dark')
-schedule.every().day.at(light_time).do(change_theme, theme_mode='light')
-schedule.every().day.at(dark_time).do(change_theme, theme_mode='dark')
+light_time = "07:30"
+dark_time = "17:00"
+schedule.every().day.at(light_time).do(os_theme.change, mode='light')
+schedule.every().day.at(dark_time).do(os_theme.change, mode='dark')
 
 # -----------------------------------------------------
-# Neu su dung thi se co them 1 process <defunct> python3 run in background
-# Process(target=open_shopee_coin).start()
-open_shopee_coin()
-open_gmail()
-open_invest()
-# open_monthly_budget()
-# open_toilet_note()
-check_change_theme(light_time, dark_time)
+# claim_shopee_coin()
+# check_mail()
+# open_invest()
+os_theme.change_by_time(light_time, dark_time)
 
 while True:
-    # scheduler1.run_pending()
     schedule.run_pending()
     time.sleep(1)

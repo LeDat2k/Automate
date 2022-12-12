@@ -4,7 +4,8 @@ import time
 import webbrowser
 from icecream import ic
 import datetime
-import os, random
+import os
+import random
 
 # def save_time():
 #     with open('./stormgain_timestamp.md', 'w') as file:
@@ -18,16 +19,17 @@ import os, random
 #         #     time.sleep(1)
 #         # open_storm gain
 #         # save_time()
-        
 
-def check_time(light_time: str, dark_time: str):
+
+def change_by_time(light_time: str, dark_time: str):
     light = light_time.split(':')
     dark = dark_time.split(':')
 
-    light = datetime.time(int(light[0]), int(light[1]))
-    dark = datetime.time(int(dark[0]), int(dark[1]))
+    light_time = datetime.time(int(light[0]), int(light[1]))
+    dark_time = datetime.time(int(dark[0]), int(dark[1]))
 
-    if datetime.datetime.now().time() >= dark:
+    now = datetime.datetime.now().time()
+    if now >= dark_time or now <= light_time:
         change('dark')
     else:
         change('light')
@@ -40,7 +42,8 @@ def change(mode):
     else:
         mode = 'Dark-'
 
-    colors = ["Aqua", "Blue", "Brown", "Grey", "Orange", "Pink", "Purple", "Red", "Sand", "Teal"]
+    colors = ["Aqua", "Blue", "Brown", "Grey", "Orange",
+              "Pink", "Purple", "Red", "Sand", "Teal"]
     name = "Mint-Y-" + mode + random.choice(colors)
     # Mint-Y-Aqua
     commands = [
@@ -55,9 +58,8 @@ try:
     # save_time()
     # check_time()
     # change()
-    
+
     pass
 except Exception as e:
     print(e.__class__)
     print(str(e))
-
