@@ -1,2 +1,9 @@
-Shopee/
-SendMail/
+Shopee
+SendMail
+__pycache__
+.idea
+.ipynb_checkpoints
+
+*.log
+*.out
+# *.pdf
