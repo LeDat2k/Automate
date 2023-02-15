@@ -4,8 +4,10 @@ import schedule
 import time
 import repetition
 
+
 def open_review():
     repetition.export()
+
 
 schedule.every().day.at("05:00").do(open_review)
 # schedule.every(1).minute.do(repetition.export)

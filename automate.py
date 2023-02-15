@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 import datetime
 import os
+import subprocess
+import time
 import webbrowser
+from multiprocessing import Process
+
+import gspread
 import pyautogui
 import requests
 import schedule
-import time
-import gspread
-from multiprocessing import Process
-import sys
-import subprocess
+
+import news
+import os_theme
+
 # sys.path.append("/media/dat/DISK/Dev/Automation/Shopee")
 # import shopee
 # from Shopee import shopee
-import news
-import os_theme
 
 
 def wait_internet():
@@ -28,6 +30,11 @@ def wait_internet():
             time.sleep(1)
 
 
+def next_tab():
+    time.sleep(1)
+    pyautogui.hotkey('ctrl', 'shift', 'tab')
+
+
 def claim_shopee_coin():
     wait_internet()
 
@@ -37,8 +44,6 @@ def claim_shopee_coin():
 
 def check_mail():
     webbrowser.open('https://mail.google.com/mail/u/0/#inbox')
-    time.sleep(1)
-    pyautogui.hotkey('ctrl', 'shift', 'tab')
 
 
 def open_invest():
@@ -50,30 +55,19 @@ def open_invest():
     for url in urls:
         webbrowser.open(url)
 
-    time.sleep(1)
-    pyautogui.hotkey('ctrl', 'shift', 'tab')
-
 
 def track_habit():
     wait_internet()
-
     webbrowser.open(
         'https://docs.google.com/spreadsheets/d/1_9KQgKxBTq6q1LAvkyFCjG7MrqccNB4-WRT45S6j2Bs/edit#gid=859944615')
-
-    time.sleep(1)
-    pyautogui.hotkey('ctrl', 'shift', 'tab')
 
 
 def report_budget():
     wait_internet()
-
     webbrowser.open(
         'https://docs.google.com/spreadsheets/d/1zA7TlchlQHoFkFKrLQgHuXRAR-Rwfq0He0ASi-N_S2M/edit#gid=1732160294')
 
-    time.sleep(1)
-    pyautogui.hotkey('ctrl', 'shift', 'tab')
-
-    today = datetime.datetime.now().strftime('%d/%m/%Y')
+    today = datetime.datetime.now().strftime('%Y-%m-%d')
     wks = gspread.service_account().open("MonthlyBudget").worksheet("Transactions")
 
     # find last rows and the 1st column
@@ -89,10 +83,8 @@ def review_vocabulary():
 
 def claim_stormgain():
     wait_internet()
-    # check_stormgain_time()
     webbrowser.open('https://app.stormgain.com/crypto-miner/')
-    time.sleep(1)
-    pyautogui.hotkey('ctrl', 'shift', 'tab')
+
 
 def grateful():
     commands = [
@@ -107,25 +99,28 @@ def grateful():
 schedule.every().day.at("05:00").do(grateful)
 schedule.every().day.at("05:00").do(claim_shopee_coin)
 schedule.every().day.at("05:00").do(open_invest)
-schedule.every().day.at("05:10").do(review_vocabulary)
+schedule.every().day.at("05:00").do(claim_stormgain)
+schedule.every().day.at("05:00").do(review_vocabulary)
 schedule.every().day.at("12:30").do(check_mail)
 schedule.every().day.at("18:30").do(news.update)
 schedule.every().day.at("21:00").do(track_habit)
 schedule.every().day.at("21:00").do(report_budget)
-schedule.every(4 * 60 + 30).minutes.do(claim_stormgain)
 
 # ---------------------------------------------------
-light_time = "07:30"
-dark_time = "17:00"
-schedule.every().day.at(light_time).do(os_theme.change, mode='light')
-schedule.every().day.at(dark_time).do(os_theme.change, mode='dark')
+light_time = datetime.time(7, 50)
+dark_time = datetime.time(17, 00)
+
+# schedule.every().day.at(light_time.strftime("%H:%M")
+#                         ).do(os_theme.change, mode='light')
+# schedule.every().day.at(dark_time.strftime("%H:%M")
+#                         ).do(os_theme.change, mode='dark')
 
 # -----------------------------------------------------
-# claim_shopee_coin()
-# check_mail()
-# open_invest()
-os_theme.change_by_time(light_time, dark_time)
+claim_shopee_coin()
+# os_theme.change_by_time(light_time, dark_time)
 
 while True:
     schedule.run_pending()
     time.sleep(1)
+
+# review_vocabulary()

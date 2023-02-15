@@ -1,7 +1,7 @@
 # Requirements
 
 - Create 1 table:scheduler in SQLite
-  - Saved subject_name, today, first, second, ....
+  - Saved subject_name, today, time1, time2, ....
   - ? Saved insert || sql update after insert
 
 ```sql
@@ -23,6 +23,19 @@ WHERE
 - export to txt file: today_review.md, daily and then open it
 
 
+## Have GUI to add new subject 
+- PyQT or Web
+- The review report can be viewed on web
+
+# How to use
+
+run by command line:
+```commandline
+learn.py xich tam tuan thien
+```
+
+
 # Exception:
+
 1. 
 

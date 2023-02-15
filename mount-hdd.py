@@ -4,16 +4,13 @@ import pyautogui
 import time
 
 def mount_hdd():
+  # open file explorer
   command = 'sh -c "nemo"'
   subprocess.Popen(command.split())
-  time.sleep(1)
-  # pyautogui.hotkey('alt', 'f2')
-  # time.sleep(0.1)
-  # pyautogui.typewrite('nemo')
-  # pyautogui.press('enter')
-  # time.sleep(1)
+  time.sleep(2)
 
-  pyautogui.click(x=96, y=452)
+  # Click as DISK position
+  pyautogui.click(x=96, y=515)
   time.sleep(1)
   pyautogui.hotkey('alt', 'f4')
 

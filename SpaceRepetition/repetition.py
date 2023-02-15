@@ -4,8 +4,9 @@ import math
 import os
 import sqlite3
 from sys import argv
-
+# ? why use absolute PATH not relative PATH
 DB_PATH = r'/media/dat/DISK/Dev/Automation/SpaceRepetition/repetition.db'
+# DB_PATH = r'repetition.db'
 
 
 def submit():
@@ -25,14 +26,16 @@ def submit():
     c = conn.cursor()
 
     # Saved new thing
-    if (len(argv) == 1):
+    if len(argv) == 1:
         print("Nothing to saved!")
         return
 
     learned_subject = ' '.join(argv[1:])
+    # command xich tam tuan thien
     # print(argv[1])
     # print(' '.join(argv[1:]))
     today = date.today()
+
 
     c.execute("""
     INSERT INTO
