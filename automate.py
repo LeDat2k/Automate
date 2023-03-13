@@ -68,12 +68,18 @@ def report_budget():
         'https://docs.google.com/spreadsheets/d/1zA7TlchlQHoFkFKrLQgHuXRAR-Rwfq0He0ASi-N_S2M/edit#gid=1732160294')
 
     today = datetime.datetime.now().strftime('%Y-%m-%d')
-    wks = gspread.service_account().open("MonthlyBudget").worksheet("Transactions")
+    worksheet = gspread.service_account().open("MonthlyBudget").worksheet("Transactions")
 
-    # find last rows and the 1st column
-    max_row = len(wks.get_all_values())
-    wks.update_cell(max_row + 1, 1, today)
-    wks.update_cell(max_row + 1, 4, "Everyday-Food")
+    # Find the length of the worksheet from column A to D
+    max_row = 0
+    for i in range(1, 5):
+        if worksheet.col_count >= i:
+            if worksheet.col_values(i):
+                if len(worksheet.col_values(i)) > max_row:
+                    max_row = len(worksheet.col_values(i))
+
+    worksheet.update_cell(max_row + 1, 1, today)
+    worksheet.update_cell(max_row + 1, 4, "Everyday-Food")
 
 
 def review_vocabulary():
@@ -88,8 +94,8 @@ def claim_stormgain():
 
 def grateful():
     commands = [
-        'subl /media/dat/DISK/Note/Personal/Mistake.md',
-        'subl /media/dat/DISK/Note/Personal/Grateful.md'
+        'subl /media/dat/DISK/Note/Personality/Mistake.md',
+        'subl /media/dat/DISK/Note/Personality/Grateful.md'
     ]
 
     for command in commands:
